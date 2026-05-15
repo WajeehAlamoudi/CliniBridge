@@ -1,0 +1,32 @@
+{
+  "patient_id": "P001",
+  "name": "John Doe",
+  "age": 54,
+  "gender": "Male",
+  "blood_type": "A+",
+  "conditions": [
+    {"name": "Hypertension", "since": "2021", "status": "active", "icd10": "I10"},
+    {"name": "Dyslipidemia", "since": "2022", "status": "active", "icd10": "E78.5"}
+  ],
+  "medications": [
+    {"name": "Lisinopril", "dose": "10mg", "frequency": "daily", "prescribed": "2021-03-10"},
+    {"name": "Atorvastatin", "dose": "20mg", "frequency": "nightly", "prescribed": "2022-01-15"}
+  ],
+  "allergies": ["Penicillin"],
+  "labs": [
+    {"test": "Potassium", "value": "4.0 mEq/L", "date": "2026-01-10", "status": "normal"},
+    {"test": "Creatinine", "value": "1.1 mg/dL", "date": "2026-01-10", "status": "normal"},
+    {"test": "LDL", "value": "98 mg/dL", "date": "2026-01-10", "status": "normal"}
+  ],
+  "visit_notes": [
+    {"date": "2026-02-10", "note": "BP 128/84. Well controlled. Patient compliant with medications. No complaints."},
+    {"date": "2025-11-05", "note": "BP slightly elevated 142/90. Discussed salt restriction and medication compliance."},
+    {"date": "2025-08-20", "note": "Routine follow-up. BP 130/86. Lipids well controlled on Atorvastatin."}
+  ],
+  "vitals_baseline": {
+    "blood_pressure": "130/85",
+    "heart_rate": 72,
+    "weight_kg": 85,
+    "height_cm": 178
+  }
+}

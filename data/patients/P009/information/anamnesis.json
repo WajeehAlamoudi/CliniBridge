@@ -1,0 +1,27 @@
+{
+  "patient_id": "P009",
+  "recorded_at": "2026-05-14T10:30:00Z",
+  "chief_complaint": {"description": "High BP reading and morning headache", "onset": "2026-05-14", "duration": "this morning"},
+  "symptom_log": [
+    {"symptom": "morning headache", "onset": "2026-05-14", "duration": "2 hours", "severity": "moderate"},
+    {"symptom": "fatigue", "onset": "2026-05-12", "duration": "3 days", "severity": "mild"}
+  ],
+  "medication_adherence": {
+    "Losartan_50mg": {"status": "taking", "as_prescribed": true, "missed_doses_last_week": 0},
+    "CPAP": {"status": "non-compliant", "note": "has not used CPAP for past 5 nights", "reason": "mask uncomfortable"}
+  },
+  "lifestyle": {
+    "diet": {"changes_recently": true, "description": "Has been eating out more than usual, high sodium fast food", "salt_intake": "high"},
+    "physical_activity": {"usual_level": "sedentary", "current_level": "sedentary"},
+    "smoking": {"status": "never"},
+    "alcohol": {"status": "moderate", "frequency": "3-4 drinks per week"},
+    "stress_level": "high",
+    "stress_source": "work deadline"
+  },
+  "family_history": [
+    {"condition": "Hypertension", "relation": "Father", "age_of_onset": 45},
+    {"condition": "Type 2 Diabetes", "relation": "Mother", "age_of_onset": 52}
+  ],
+  "patient_concerns": ["BP is 158/96 this morning", "Has not been sleeping well without CPAP"],
+  "patient_questions": ["Is not using CPAP making my BP worse?", "Should I increase my medication?"]
+}

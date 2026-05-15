@@ -1,0 +1,176 @@
+[
+  {
+    "index": 0,
+    "type": "chief_complaint.description",
+    "text": "chief_complaint.description: High blood pressure reading on home monitor",
+    "source": "chief_complaint.description"
+  },
+  {
+    "index": 1,
+    "type": "chief_complaint.onset",
+    "text": "chief_complaint.onset: 2026-05-14",
+    "source": "chief_complaint.onset"
+  },
+  {
+    "index": 2,
+    "type": "chief_complaint.duration",
+    "text": "chief_complaint.duration: 1 day",
+    "source": "chief_complaint.duration"
+  },
+  {
+    "index": 3,
+    "type": "history_of_present_illness.summary",
+    "text": "history_of_present_illness.summary: 61 year old female recently transferred from another facility. Limited medical records available. Patient reports longstanding hypertension. Home monitor showed 168/102 this morning.",
+    "source": "history_of_present_illness.summary"
+  },
+  {
+    "index": 4,
+    "type": "history_of_present_illness.timeline",
+    "text": "date: 2026-05-01 | event: Patient registered at new facility, records requested from previous provider",
+    "source": "history_of_present_illness.timeline[0]"
+  },
+  {
+    "index": 5,
+    "type": "history_of_present_illness.timeline",
+    "text": "date: 2026-05-14 | event: BP 168/102 on home monitor, alert triggered",
+    "source": "history_of_present_illness.timeline[1]"
+  },
+  {
+    "index": 6,
+    "type": "symptom_log",
+    "text": "symptom: mild headache | onset: 2026-05-14 | duration: few hours | severity: mild | character: dull, occipital",
+    "source": "symptom_log[0]"
+  },
+  {
+    "index": 7,
+    "type": "medication_adherence.Amlodipine_unknown_dose.status",
+    "text": "medication_adherence.Amlodipine_unknown_dose.status: taking",
+    "source": "medication_adherence.Amlodipine_unknown_dose.status"
+  },
+  {
+    "index": 8,
+    "type": "medication_adherence.Amlodipine_unknown_dose.as_prescribed",
+    "text": "medication_adherence.Amlodipine_unknown_dose.as_prescribed: True",
+    "source": "medication_adherence.Amlodipine_unknown_dose.as_prescribed"
+  },
+  {
+    "index": 9,
+    "type": "medication_adherence.Amlodipine_unknown_dose.note",
+    "text": "medication_adherence.Amlodipine_unknown_dose.note: Patient unsure of exact dose, takes one tablet daily",
+    "source": "medication_adherence.Amlodipine_unknown_dose.note"
+  },
+  {
+    "index": 10,
+    "type": "medication_adherence.Amlodipine_unknown_dose.missed_doses_last_week",
+    "text": "medication_adherence.Amlodipine_unknown_dose.missed_doses_last_week: 0",
+    "source": "medication_adherence.Amlodipine_unknown_dose.missed_doses_last_week"
+  },
+  {
+    "index": 11,
+    "type": "review_of_systems.cardiovascular.chest_pain",
+    "text": "review_of_systems.cardiovascular.chest_pain: False",
+    "source": "review_of_systems.cardiovascular.chest_pain"
+  },
+  {
+    "index": 12,
+    "type": "review_of_systems.cardiovascular.palpitations",
+    "text": "review_of_systems.cardiovascular.palpitations: False",
+    "source": "review_of_systems.cardiovascular.palpitations"
+  },
+  {
+    "index": 13,
+    "type": "review_of_systems.neurological.headache",
+    "text": "review_of_systems.neurological.headache: True",
+    "source": "review_of_systems.neurological.headache"
+  },
+  {
+    "index": 14,
+    "type": "review_of_systems.neurological.dizziness",
+    "text": "review_of_systems.neurological.dizziness: False",
+    "source": "review_of_systems.neurological.dizziness"
+  },
+  {
+    "index": 15,
+    "type": "review_of_systems.neurological.vision_changes",
+    "text": "review_of_systems.neurological.vision_changes: False",
+    "source": "review_of_systems.neurological.vision_changes"
+  },
+  {
+    "index": 16,
+    "type": "lifestyle.diet.changes_recently",
+    "text": "lifestyle.diet.changes_recently: False",
+    "source": "lifestyle.diet.changes_recently"
+  },
+  {
+    "index": 17,
+    "type": "lifestyle.diet.salt_intake",
+    "text": "lifestyle.diet.salt_intake: unknown",
+    "source": "lifestyle.diet.salt_intake"
+  },
+  {
+    "index": 18,
+    "type": "lifestyle.physical_activity.usual_level",
+    "text": "lifestyle.physical_activity.usual_level: unknown",
+    "source": "lifestyle.physical_activity.usual_level"
+  },
+  {
+    "index": 19,
+    "type": "lifestyle.physical_activity.current_level",
+    "text": "lifestyle.physical_activity.current_level: light",
+    "source": "lifestyle.physical_activity.current_level"
+  },
+  {
+    "index": 20,
+    "type": "lifestyle.smoking.status",
+    "text": "lifestyle.smoking.status: unknown",
+    "source": "lifestyle.smoking.status"
+  },
+  {
+    "index": 21,
+    "type": "lifestyle.alcohol.status",
+    "text": "lifestyle.alcohol.status: unknown",
+    "source": "lifestyle.alcohol.status"
+  },
+  {
+    "index": 22,
+    "type": "lifestyle.stress_level",
+    "text": "lifestyle.stress_level: high",
+    "source": "lifestyle.stress_level"
+  },
+  {
+    "index": 23,
+    "type": "family_history",
+    "text": "condition: Hypertension | relation: unknown | age_of_onset: unknown",
+    "source": "family_history[0]"
+  },
+  {
+    "index": 24,
+    "type": "patient_concerns",
+    "text": "patient_concerns: Worried about BP reading",
+    "source": "patient_concerns[0]"
+  },
+  {
+    "index": 25,
+    "type": "patient_concerns",
+    "text": "patient_concerns: Unsure if current medication dose is correct",
+    "source": "patient_concerns[1]"
+  },
+  {
+    "index": 26,
+    "type": "patient_concerns",
+    "text": "patient_concerns: Previous records have not arrived yet",
+    "source": "patient_concerns[2]"
+  },
+  {
+    "index": 27,
+    "type": "patient_questions",
+    "text": "patient_questions: Is my blood pressure dangerous?",
+    "source": "patient_questions[0]"
+  },
+  {
+    "index": 28,
+    "type": "patient_questions",
+    "text": "patient_questions: Should I take more medication?",
+    "source": "patient_questions[1]"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "patient_id": "P004",
+  "name": "Maria Lopez",
+  "age": 61,
+  "gender": "Female",
+  "blood_type": "Unknown",
+  "conditions": [
+    {"name": "Hypertension", "since": "unknown", "status": "active", "icd10": "I10"}
+  ],
+  "medications": [
+    {"name": "Amlodipine", "dose": "unknown", "frequency": "unknown", "prescribed": "unknown"}
+  ],
+  "allergies": ["unknown"],
+  "labs": [],
+  "visit_notes": [
+    {"date": "2026-05-01", "note": "Patient transferred from another facility. Records requested but not yet received. Patient reports history of high blood pressure and takes a calcium channel blocker. No other records available."}
+  ],
+  "vitals_baseline": {
+    "blood_pressure": "unknown",
+    "heart_rate": "unknown",
+    "weight_kg": "unknown",
+    "height_cm": 160
+  }
+}

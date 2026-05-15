@@ -1,0 +1,212 @@
+[
+  {
+    "index": 0,
+    "type": "chief_complaint.description",
+    "text": "chief_complaint.description: Elevated blood pressure reading",
+    "source": "chief_complaint.description"
+  },
+  {
+    "index": 1,
+    "type": "chief_complaint.onset",
+    "text": "chief_complaint.onset: 2026-05-14",
+    "source": "chief_complaint.onset"
+  },
+  {
+    "index": 2,
+    "type": "chief_complaint.duration",
+    "text": "chief_complaint.duration: 1 day",
+    "source": "chief_complaint.duration"
+  },
+  {
+    "index": 3,
+    "type": "history_of_present_illness.summary",
+    "text": "history_of_present_illness.summary: 58 year old male with hypertension and diabetes. BP 162/98 on home monitor. Patient insists he is fully compliant with all medications. However recent labs show sub-therapeutic Ramipril levels and elevated HbA1c suggesting otherwise.",
+    "source": "history_of_present_illness.summary"
+  },
+  {
+    "index": 4,
+    "type": "history_of_present_illness.timeline",
+    "text": "date: 2026-04-15 | event: Labs showed sub-therapeutic drug levels despite patient claiming adherence",
+    "source": "history_of_present_illness.timeline[0]"
+  },
+  {
+    "index": 5,
+    "type": "history_of_present_illness.timeline",
+    "text": "date: 2026-05-14 | event: BP 162/98 on home monitor, alert triggered",
+    "source": "history_of_present_illness.timeline[1]"
+  },
+  {
+    "index": 6,
+    "type": "symptom_log",
+    "text": "symptom: mild headache | onset: 2026-05-14 | duration: morning | severity: mild | character: occipital",
+    "source": "symptom_log[0]"
+  },
+  {
+    "index": 7,
+    "type": "medication_adherence.Ramipril_10mg.status",
+    "text": "medication_adherence.Ramipril_10mg.status: taking",
+    "source": "medication_adherence.Ramipril_10mg.status"
+  },
+  {
+    "index": 8,
+    "type": "medication_adherence.Ramipril_10mg.as_prescribed",
+    "text": "medication_adherence.Ramipril_10mg.as_prescribed: True",
+    "source": "medication_adherence.Ramipril_10mg.as_prescribed"
+  },
+  {
+    "index": 9,
+    "type": "medication_adherence.Ramipril_10mg.patient_statement",
+    "text": "medication_adherence.Ramipril_10mg.patient_statement: I take it every morning without fail",
+    "source": "medication_adherence.Ramipril_10mg.patient_statement"
+  },
+  {
+    "index": 10,
+    "type": "medication_adherence.Ramipril_10mg.missed_doses_last_week",
+    "text": "medication_adherence.Ramipril_10mg.missed_doses_last_week: 0",
+    "source": "medication_adherence.Ramipril_10mg.missed_doses_last_week"
+  },
+  {
+    "index": 11,
+    "type": "medication_adherence.Metformin_500mg.status",
+    "text": "medication_adherence.Metformin_500mg.status: taking",
+    "source": "medication_adherence.Metformin_500mg.status"
+  },
+  {
+    "index": 12,
+    "type": "medication_adherence.Metformin_500mg.as_prescribed",
+    "text": "medication_adherence.Metformin_500mg.as_prescribed: True",
+    "source": "medication_adherence.Metformin_500mg.as_prescribed"
+  },
+  {
+    "index": 13,
+    "type": "medication_adherence.Metformin_500mg.patient_statement",
+    "text": "medication_adherence.Metformin_500mg.patient_statement: I never miss a dose",
+    "source": "medication_adherence.Metformin_500mg.patient_statement"
+  },
+  {
+    "index": 14,
+    "type": "medication_adherence.Metformin_500mg.missed_doses_last_week",
+    "text": "medication_adherence.Metformin_500mg.missed_doses_last_week: 0",
+    "source": "medication_adherence.Metformin_500mg.missed_doses_last_week"
+  },
+  {
+    "index": 15,
+    "type": "review_of_systems.cardiovascular.chest_pain",
+    "text": "review_of_systems.cardiovascular.chest_pain: False",
+    "source": "review_of_systems.cardiovascular.chest_pain"
+  },
+  {
+    "index": 16,
+    "type": "review_of_systems.cardiovascular.palpitations",
+    "text": "review_of_systems.cardiovascular.palpitations: False",
+    "source": "review_of_systems.cardiovascular.palpitations"
+  },
+  {
+    "index": 17,
+    "type": "review_of_systems.neurological.headache",
+    "text": "review_of_systems.neurological.headache: True",
+    "source": "review_of_systems.neurological.headache"
+  },
+  {
+    "index": 18,
+    "type": "review_of_systems.neurological.dizziness",
+    "text": "review_of_systems.neurological.dizziness: False",
+    "source": "review_of_systems.neurological.dizziness"
+  },
+  {
+    "index": 19,
+    "type": "lifestyle.diet.changes_recently",
+    "text": "lifestyle.diet.changes_recently: False",
+    "source": "lifestyle.diet.changes_recently"
+  },
+  {
+    "index": 20,
+    "type": "lifestyle.diet.salt_intake",
+    "text": "lifestyle.diet.salt_intake: moderate",
+    "source": "lifestyle.diet.salt_intake"
+  },
+  {
+    "index": 21,
+    "type": "lifestyle.physical_activity.usual_level",
+    "text": "lifestyle.physical_activity.usual_level: sedentary",
+    "source": "lifestyle.physical_activity.usual_level"
+  },
+  {
+    "index": 22,
+    "type": "lifestyle.physical_activity.current_level",
+    "text": "lifestyle.physical_activity.current_level: sedentary",
+    "source": "lifestyle.physical_activity.current_level"
+  },
+  {
+    "index": 23,
+    "type": "lifestyle.smoking.status",
+    "text": "lifestyle.smoking.status: former",
+    "source": "lifestyle.smoking.status"
+  },
+  {
+    "index": 24,
+    "type": "lifestyle.smoking.quit_year",
+    "text": "lifestyle.smoking.quit_year: 2015",
+    "source": "lifestyle.smoking.quit_year"
+  },
+  {
+    "index": 25,
+    "type": "lifestyle.alcohol.status",
+    "text": "lifestyle.alcohol.status: regular",
+    "source": "lifestyle.alcohol.status"
+  },
+  {
+    "index": 26,
+    "type": "lifestyle.alcohol.frequency",
+    "text": "lifestyle.alcohol.frequency: 4-5 drinks per week",
+    "source": "lifestyle.alcohol.frequency"
+  },
+  {
+    "index": 27,
+    "type": "lifestyle.stress_level",
+    "text": "lifestyle.stress_level: high",
+    "source": "lifestyle.stress_level"
+  },
+  {
+    "index": 28,
+    "type": "lifestyle.stress_source",
+    "text": "lifestyle.stress_source: financial and work pressure",
+    "source": "lifestyle.stress_source"
+  },
+  {
+    "index": 29,
+    "type": "family_history",
+    "text": "condition: Hypertension | relation: Father | age_of_onset: 55",
+    "source": "family_history[0]"
+  },
+  {
+    "index": 30,
+    "type": "family_history",
+    "text": "condition: Type 2 Diabetes | relation: Sister | age_of_onset: 50",
+    "source": "family_history[1]"
+  },
+  {
+    "index": 31,
+    "type": "patient_concerns",
+    "text": "patient_concerns: Frustrated that BP is still high despite taking medications",
+    "source": "patient_concerns[0]"
+  },
+  {
+    "index": 32,
+    "type": "patient_concerns",
+    "text": "patient_concerns: Denies any missed doses",
+    "source": "patient_concerns[1]"
+  },
+  {
+    "index": 33,
+    "type": "patient_questions",
+    "text": "patient_questions: Why is my blood pressure still high if I take my medications?",
+    "source": "patient_questions[0]"
+  },
+  {
+    "index": 34,
+    "type": "patient_questions",
+    "text": "patient_questions: Do I need stronger medication?",
+    "source": "patient_questions[1]"
+  }
+]

@@ -1,0 +1,284 @@
+[
+  {
+    "index": 0,
+    "type": "chief_complaint.description",
+    "text": "chief_complaint.description: Gradual weight gain over past 2 weeks and ankle swelling",
+    "source": "chief_complaint.description"
+  },
+  {
+    "index": 1,
+    "type": "chief_complaint.onset",
+    "text": "chief_complaint.onset: 2026-05-01",
+    "source": "chief_complaint.onset"
+  },
+  {
+    "index": 2,
+    "type": "chief_complaint.duration",
+    "text": "chief_complaint.duration: 14 days",
+    "source": "chief_complaint.duration"
+  },
+  {
+    "index": 3,
+    "type": "history_of_present_illness.summary",
+    "text": "history_of_present_illness.summary: 67 year old male with heart failure. Reports gradual weight increase over 2 weeks. Each daily reading was within threshold but trend is upward. Now reporting ankle swelling and reduced exercise tolerance.",
+    "source": "history_of_present_illness.summary"
+  },
+  {
+    "index": 4,
+    "type": "history_of_present_illness.timeline",
+    "text": "date: 2026-05-01 | event: Weight 86.2kg — baseline normal",
+    "source": "history_of_present_illness.timeline[0]"
+  },
+  {
+    "index": 5,
+    "type": "history_of_present_illness.timeline",
+    "text": "date: 2026-05-04 | event: Weight 86.8kg — slight increase",
+    "source": "history_of_present_illness.timeline[1]"
+  },
+  {
+    "index": 6,
+    "type": "history_of_present_illness.timeline",
+    "text": "date: 2026-05-07 | event: Weight 87.5kg — patient noticed mild ankle swelling",
+    "source": "history_of_present_illness.timeline[2]"
+  },
+  {
+    "index": 7,
+    "type": "history_of_present_illness.timeline",
+    "text": "date: 2026-05-10 | event: Weight 88.1kg — ankle swelling worsening",
+    "source": "history_of_present_illness.timeline[3]"
+  },
+  {
+    "index": 8,
+    "type": "history_of_present_illness.timeline",
+    "text": "date: 2026-05-14 | event: Weight 89.3kg — alert triggered, 3.1kg gain in 2 weeks",
+    "source": "history_of_present_illness.timeline[4]"
+  },
+  {
+    "index": 9,
+    "type": "symptom_log",
+    "text": "symptom: ankle swelling | onset: 2026-05-07 | duration: 7 days | severity: moderate | character: bilateral, worse in evening",
+    "source": "symptom_log[0]"
+  },
+  {
+    "index": 10,
+    "type": "symptom_log",
+    "text": "symptom: reduced exercise tolerance | onset: 2026-05-10 | duration: 4 days | severity: mild | character: gets short of breath faster than usual",
+    "source": "symptom_log[1]"
+  },
+  {
+    "index": 11,
+    "type": "symptom_log",
+    "text": "symptom: fatigue | onset: 2026-05-10 | duration: 4 days | severity: mild | character: more tired than usual",
+    "source": "symptom_log[2]"
+  },
+  {
+    "index": 12,
+    "type": "medication_adherence.Furosemide_40mg.status",
+    "text": "medication_adherence.Furosemide_40mg.status: taking",
+    "source": "medication_adherence.Furosemide_40mg.status"
+  },
+  {
+    "index": 13,
+    "type": "medication_adherence.Furosemide_40mg.as_prescribed",
+    "text": "medication_adherence.Furosemide_40mg.as_prescribed: True",
+    "source": "medication_adherence.Furosemide_40mg.as_prescribed"
+  },
+  {
+    "index": 14,
+    "type": "medication_adherence.Furosemide_40mg.missed_doses_last_week",
+    "text": "medication_adherence.Furosemide_40mg.missed_doses_last_week: 0",
+    "source": "medication_adherence.Furosemide_40mg.missed_doses_last_week"
+  },
+  {
+    "index": 15,
+    "type": "medication_adherence.Carvedilol_12.5mg.status",
+    "text": "medication_adherence.Carvedilol_12.5mg.status: taking",
+    "source": "medication_adherence.Carvedilol_12.5mg.status"
+  },
+  {
+    "index": 16,
+    "type": "medication_adherence.Carvedilol_12.5mg.as_prescribed",
+    "text": "medication_adherence.Carvedilol_12.5mg.as_prescribed: True",
+    "source": "medication_adherence.Carvedilol_12.5mg.as_prescribed"
+  },
+  {
+    "index": 17,
+    "type": "medication_adherence.Carvedilol_12.5mg.missed_doses_last_week",
+    "text": "medication_adherence.Carvedilol_12.5mg.missed_doses_last_week: 0",
+    "source": "medication_adherence.Carvedilol_12.5mg.missed_doses_last_week"
+  },
+  {
+    "index": 18,
+    "type": "medication_adherence.Sacubitril_Valsartan.status",
+    "text": "medication_adherence.Sacubitril_Valsartan.status: taking",
+    "source": "medication_adherence.Sacubitril_Valsartan.status"
+  },
+  {
+    "index": 19,
+    "type": "medication_adherence.Sacubitril_Valsartan.as_prescribed",
+    "text": "medication_adherence.Sacubitril_Valsartan.as_prescribed: True",
+    "source": "medication_adherence.Sacubitril_Valsartan.as_prescribed"
+  },
+  {
+    "index": 20,
+    "type": "medication_adherence.Sacubitril_Valsartan.missed_doses_last_week",
+    "text": "medication_adherence.Sacubitril_Valsartan.missed_doses_last_week: 0",
+    "source": "medication_adherence.Sacubitril_Valsartan.missed_doses_last_week"
+  },
+  {
+    "index": 21,
+    "type": "medication_adherence.Spironolactone_25mg.status",
+    "text": "medication_adherence.Spironolactone_25mg.status: taking",
+    "source": "medication_adherence.Spironolactone_25mg.status"
+  },
+  {
+    "index": 22,
+    "type": "medication_adherence.Spironolactone_25mg.as_prescribed",
+    "text": "medication_adherence.Spironolactone_25mg.as_prescribed: True",
+    "source": "medication_adherence.Spironolactone_25mg.as_prescribed"
+  },
+  {
+    "index": 23,
+    "type": "medication_adherence.Spironolactone_25mg.missed_doses_last_week",
+    "text": "medication_adherence.Spironolactone_25mg.missed_doses_last_week: 0",
+    "source": "medication_adherence.Spironolactone_25mg.missed_doses_last_week"
+  },
+  {
+    "index": 24,
+    "type": "review_of_systems.cardiovascular.chest_pain",
+    "text": "review_of_systems.cardiovascular.chest_pain: False",
+    "source": "review_of_systems.cardiovascular.chest_pain"
+  },
+  {
+    "index": 25,
+    "type": "review_of_systems.cardiovascular.palpitations",
+    "text": "review_of_systems.cardiovascular.palpitations: False",
+    "source": "review_of_systems.cardiovascular.palpitations"
+  },
+  {
+    "index": 26,
+    "type": "review_of_systems.cardiovascular.shortness_of_breath",
+    "text": "review_of_systems.cardiovascular.shortness_of_breath: True",
+    "source": "review_of_systems.cardiovascular.shortness_of_breath"
+  },
+  {
+    "index": 27,
+    "type": "review_of_systems.respiratory.orthopnea",
+    "text": "review_of_systems.respiratory.orthopnea: False",
+    "source": "review_of_systems.respiratory.orthopnea"
+  },
+  {
+    "index": 28,
+    "type": "review_of_systems.respiratory.cough",
+    "text": "review_of_systems.respiratory.cough: False",
+    "source": "review_of_systems.respiratory.cough"
+  },
+  {
+    "index": 29,
+    "type": "review_of_systems.extremities.ankle_swelling",
+    "text": "review_of_systems.extremities.ankle_swelling: True",
+    "source": "review_of_systems.extremities.ankle_swelling"
+  },
+  {
+    "index": 30,
+    "type": "review_of_systems.extremities.leg_pain",
+    "text": "review_of_systems.extremities.leg_pain: False",
+    "source": "review_of_systems.extremities.leg_pain"
+  },
+  {
+    "index": 31,
+    "type": "lifestyle.diet.changes_recently",
+    "text": "lifestyle.diet.changes_recently: True",
+    "source": "lifestyle.diet.changes_recently"
+  },
+  {
+    "index": 32,
+    "type": "lifestyle.diet.description",
+    "text": "lifestyle.diet.description: Patient attended a wedding last week, ate more salty food than usual",
+    "source": "lifestyle.diet.description"
+  },
+  {
+    "index": 33,
+    "type": "lifestyle.diet.salt_intake",
+    "text": "lifestyle.diet.salt_intake: high recently",
+    "source": "lifestyle.diet.salt_intake"
+  },
+  {
+    "index": 34,
+    "type": "lifestyle.physical_activity.usual_level",
+    "text": "lifestyle.physical_activity.usual_level: light",
+    "source": "lifestyle.physical_activity.usual_level"
+  },
+  {
+    "index": 35,
+    "type": "lifestyle.physical_activity.current_level",
+    "text": "lifestyle.physical_activity.current_level: very light",
+    "source": "lifestyle.physical_activity.current_level"
+  },
+  {
+    "index": 36,
+    "type": "lifestyle.smoking.status",
+    "text": "lifestyle.smoking.status: former",
+    "source": "lifestyle.smoking.status"
+  },
+  {
+    "index": 37,
+    "type": "lifestyle.smoking.quit_year",
+    "text": "lifestyle.smoking.quit_year: 2010",
+    "source": "lifestyle.smoking.quit_year"
+  },
+  {
+    "index": 38,
+    "type": "lifestyle.alcohol.status",
+    "text": "lifestyle.alcohol.status: none",
+    "source": "lifestyle.alcohol.status"
+  },
+  {
+    "index": 39,
+    "type": "lifestyle.stress_level",
+    "text": "lifestyle.stress_level: low",
+    "source": "lifestyle.stress_level"
+  },
+  {
+    "index": 40,
+    "type": "family_history",
+    "text": "condition: Heart Failure | relation: Father | age_of_onset: 65",
+    "source": "family_history[0]"
+  },
+  {
+    "index": 41,
+    "type": "family_history",
+    "text": "condition: Hypertension | relation: Mother | age_of_onset: 55",
+    "source": "family_history[1]"
+  },
+  {
+    "index": 42,
+    "type": "patient_concerns",
+    "text": "patient_concerns: Worried about the weight gain",
+    "source": "patient_concerns[0]"
+  },
+  {
+    "index": 43,
+    "type": "patient_concerns",
+    "text": "patient_concerns: Ankles are swollen and uncomfortable",
+    "source": "patient_concerns[1]"
+  },
+  {
+    "index": 44,
+    "type": "patient_concerns",
+    "text": "patient_concerns: Getting tired more easily",
+    "source": "patient_concerns[2]"
+  },
+  {
+    "index": 45,
+    "type": "patient_questions",
+    "text": "patient_questions: Should I increase my water pill dose?",
+    "source": "patient_questions[0]"
+  },
+  {
+    "index": 46,
+    "type": "patient_questions",
+    "text": "patient_questions: Is this weight gain dangerous?",
+    "source": "patient_questions[1]"
+  }
+]

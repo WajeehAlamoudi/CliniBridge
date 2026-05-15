@@ -1,0 +1,12 @@
+{
+  "scenario_id": "scenario_2",
+  "description": "False Alarm — High glucose due to planned dietary change",
+  "patient_id": "P002",
+  "reading": "blood_glucose",
+  "value": "210",
+  "unit": "mg/dL",
+  "timestamp": "2026-05-14T07:45:00Z",
+  "device": "Dexcom G6 CGM",
+  "threshold": "180",
+  "alert_level": "HIGH"
+}

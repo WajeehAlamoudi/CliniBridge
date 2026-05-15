@@ -1,0 +1,50 @@
+{
+  "patient_id": "P004",
+  "recorded_at": "2026-05-14T11:00:00Z",
+  "chief_complaint": {
+    "description": "High blood pressure reading on home monitor",
+    "onset": "2026-05-14",
+    "duration": "1 day"
+  },
+  "history_of_present_illness": {
+    "summary": "61 year old female recently transferred from another facility. Limited medical records available. Patient reports longstanding hypertension. Home monitor showed 168/102 this morning.",
+    "timeline": [
+      {"date": "2026-05-01", "event": "Patient registered at new facility, records requested from previous provider"},
+      {"date": "2026-05-14", "event": "BP 168/102 on home monitor, alert triggered"}
+    ]
+  },
+  "symptom_log": [
+    {"symptom": "mild headache", "onset": "2026-05-14", "duration": "few hours", "severity": "mild", "character": "dull, occipital"}
+  ],
+  "medication_adherence": {
+    "Amlodipine_unknown_dose": {
+      "status": "taking",
+      "as_prescribed": true,
+      "note": "Patient unsure of exact dose, takes one tablet daily",
+      "missed_doses_last_week": 0
+    }
+  },
+  "review_of_systems": {
+    "cardiovascular": {"chest_pain": false, "palpitations": false},
+    "neurological": {"headache": true, "dizziness": false, "vision_changes": false}
+  },
+  "lifestyle": {
+    "diet": {"changes_recently": false, "salt_intake": "unknown"},
+    "physical_activity": {"usual_level": "unknown", "current_level": "light"},
+    "smoking": {"status": "unknown"},
+    "alcohol": {"status": "unknown"},
+    "stress_level": "high"
+  },
+  "family_history": [
+    {"condition": "Hypertension", "relation": "unknown", "age_of_onset": "unknown"}
+  ],
+  "patient_concerns": [
+    "Worried about BP reading",
+    "Unsure if current medication dose is correct",
+    "Previous records have not arrived yet"
+  ],
+  "patient_questions": [
+    "Is my blood pressure dangerous?",
+    "Should I take more medication?"
+  ]
+}

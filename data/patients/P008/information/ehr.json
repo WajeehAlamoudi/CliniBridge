@@ -1,0 +1,34 @@
+{
+  "patient_id": "P008",
+  "name": "Patricia Moore",
+  "age": 66,
+  "gender": "Female",
+  "blood_type": "B-",
+  "conditions": [
+    {"name": "COPD Stage 2", "since": "2019", "status": "active", "icd10": "J44.1"},
+    {"name": "Hypertension", "since": "2018", "status": "active", "icd10": "I10"}
+  ],
+  "medications": [
+    {"name": "Tiotropium", "dose": "18mcg", "frequency": "daily inhaler", "prescribed": "2019-08-01"},
+    {"name": "Salmeterol-Fluticasone", "dose": "50/250mcg", "frequency": "twice daily inhaler", "prescribed": "2019-08-01"},
+    {"name": "Amlodipine", "dose": "5mg", "frequency": "daily", "prescribed": "2018-05-01"}
+  ],
+  "allergies": ["NSAIDs"],
+  "labs": [
+    {"test": "SpO2 baseline", "value": "94%", "date": "2026-02-20", "status": "acceptable for COPD"},
+    {"test": "FEV1", "value": "58% predicted", "date": "2026-02-20", "status": "moderate obstruction"},
+    {"test": "Creatinine", "value": "0.9 mg/dL", "date": "2026-02-20", "status": "normal"}
+  ],
+  "visit_notes": [
+    {"date": "2026-02-20", "note": "COPD stable. SpO2 94% at rest. FEV1 58%. No recent exacerbations. Continue current inhalers."},
+    {"date": "2025-10-01", "note": "Mild exacerbation. Treated with short course steroids and antibiotics. Recovered well."},
+    {"date": "2025-05-15", "note": "Routine pulmonology follow-up. Stable. Advised to get flu vaccine."}
+  ],
+  "vitals_baseline": {
+    "blood_pressure": "130/82",
+    "heart_rate": 80,
+    "spo2_baseline": "94%",
+    "weight_kg": 72,
+    "height_cm": 162
+  }
+}

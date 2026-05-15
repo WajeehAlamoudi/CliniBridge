@@ -1,0 +1,23 @@
+{
+  "scenario_id": "scenario_3",
+  "description": "Silent Deterioration — Gradual weight gain trend in heart failure patient",
+  "patient_id": "P003",
+  "reading": "weight",
+  "value": "89.3",
+  "unit": "kg",
+  "timestamp": "2026-05-14T08:00:00Z",
+  "device": "Withings Smart Scale",
+  "threshold": "88.0",
+  "alert_level": "MODERATE",
+  "trend": {
+    "readings": [
+      {"date": "2026-05-01", "value": 86.2},
+      {"date": "2026-05-04", "value": 86.8},
+      {"date": "2026-05-07", "value": 87.5},
+      {"date": "2026-05-10", "value": 88.1},
+      {"date": "2026-05-14", "value": 89.3}
+    ],
+    "total_gain_kg": 3.1,
+    "period_days": 14
+  }
+}

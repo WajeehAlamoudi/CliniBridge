@@ -1,0 +1,176 @@
+[
+  {
+    "index": 0,
+    "type": "chief_complaint.description",
+    "text": "chief_complaint.description: Low oxygen reading on home pulse oximeter",
+    "source": "chief_complaint.description"
+  },
+  {
+    "index": 1,
+    "type": "chief_complaint.onset",
+    "text": "chief_complaint.onset: 2026-05-14",
+    "source": "chief_complaint.onset"
+  },
+  {
+    "index": 2,
+    "type": "chief_complaint.duration",
+    "text": "chief_complaint.duration: this morning",
+    "source": "chief_complaint.duration"
+  },
+  {
+    "index": 3,
+    "type": "symptom_log",
+    "text": "symptom: increased shortness of breath | onset: 2026-05-13 | duration: 2 days | severity: moderate",
+    "source": "symptom_log[0]"
+  },
+  {
+    "index": 4,
+    "type": "symptom_log",
+    "text": "symptom: productive cough | onset: 2026-05-12 | duration: 3 days | severity: mild | character: yellow sputum",
+    "source": "symptom_log[1]"
+  },
+  {
+    "index": 5,
+    "type": "symptom_log",
+    "text": "symptom: low grade fever | onset: 2026-05-13 | duration: 2 days | severity: mild | value: 37.8C",
+    "source": "symptom_log[2]"
+  },
+  {
+    "index": 6,
+    "type": "medication_adherence.Tiotropium.status",
+    "text": "medication_adherence.Tiotropium.status: taking",
+    "source": "medication_adherence.Tiotropium.status"
+  },
+  {
+    "index": 7,
+    "type": "medication_adherence.Tiotropium.as_prescribed",
+    "text": "medication_adherence.Tiotropium.as_prescribed: True",
+    "source": "medication_adherence.Tiotropium.as_prescribed"
+  },
+  {
+    "index": 8,
+    "type": "medication_adherence.Tiotropium.missed_doses_last_week",
+    "text": "medication_adherence.Tiotropium.missed_doses_last_week: 0",
+    "source": "medication_adherence.Tiotropium.missed_doses_last_week"
+  },
+  {
+    "index": 9,
+    "type": "medication_adherence.Salmeterol_Fluticasone.status",
+    "text": "medication_adherence.Salmeterol_Fluticasone.status: taking",
+    "source": "medication_adherence.Salmeterol_Fluticasone.status"
+  },
+  {
+    "index": 10,
+    "type": "medication_adherence.Salmeterol_Fluticasone.as_prescribed",
+    "text": "medication_adherence.Salmeterol_Fluticasone.as_prescribed: True",
+    "source": "medication_adherence.Salmeterol_Fluticasone.as_prescribed"
+  },
+  {
+    "index": 11,
+    "type": "medication_adherence.Salmeterol_Fluticasone.missed_doses_last_week",
+    "text": "medication_adherence.Salmeterol_Fluticasone.missed_doses_last_week: 0",
+    "source": "medication_adherence.Salmeterol_Fluticasone.missed_doses_last_week"
+  },
+  {
+    "index": 12,
+    "type": "medication_adherence.Amlodipine_5mg.status",
+    "text": "medication_adherence.Amlodipine_5mg.status: taking",
+    "source": "medication_adherence.Amlodipine_5mg.status"
+  },
+  {
+    "index": 13,
+    "type": "medication_adherence.Amlodipine_5mg.as_prescribed",
+    "text": "medication_adherence.Amlodipine_5mg.as_prescribed: True",
+    "source": "medication_adherence.Amlodipine_5mg.as_prescribed"
+  },
+  {
+    "index": 14,
+    "type": "medication_adherence.Amlodipine_5mg.missed_doses_last_week",
+    "text": "medication_adherence.Amlodipine_5mg.missed_doses_last_week: 0",
+    "source": "medication_adherence.Amlodipine_5mg.missed_doses_last_week"
+  },
+  {
+    "index": 15,
+    "type": "lifestyle.diet.changes_recently",
+    "text": "lifestyle.diet.changes_recently: False",
+    "source": "lifestyle.diet.changes_recently"
+  },
+  {
+    "index": 16,
+    "type": "lifestyle.diet.salt_intake",
+    "text": "lifestyle.diet.salt_intake: normal",
+    "source": "lifestyle.diet.salt_intake"
+  },
+  {
+    "index": 17,
+    "type": "lifestyle.physical_activity.usual_level",
+    "text": "lifestyle.physical_activity.usual_level: light",
+    "source": "lifestyle.physical_activity.usual_level"
+  },
+  {
+    "index": 18,
+    "type": "lifestyle.physical_activity.current_level",
+    "text": "lifestyle.physical_activity.current_level: minimal",
+    "source": "lifestyle.physical_activity.current_level"
+  },
+  {
+    "index": 19,
+    "type": "lifestyle.smoking.status",
+    "text": "lifestyle.smoking.status: former",
+    "source": "lifestyle.smoking.status"
+  },
+  {
+    "index": 20,
+    "type": "lifestyle.smoking.quit_year",
+    "text": "lifestyle.smoking.quit_year: 2019",
+    "source": "lifestyle.smoking.quit_year"
+  },
+  {
+    "index": 21,
+    "type": "lifestyle.smoking.pack_years",
+    "text": "lifestyle.smoking.pack_years: 30",
+    "source": "lifestyle.smoking.pack_years"
+  },
+  {
+    "index": 22,
+    "type": "lifestyle.alcohol.status",
+    "text": "lifestyle.alcohol.status: none",
+    "source": "lifestyle.alcohol.status"
+  },
+  {
+    "index": 23,
+    "type": "lifestyle.stress_level",
+    "text": "lifestyle.stress_level: low",
+    "source": "lifestyle.stress_level"
+  },
+  {
+    "index": 24,
+    "type": "family_history",
+    "text": "condition: COPD | relation: Father | age_of_onset: 60",
+    "source": "family_history[0]"
+  },
+  {
+    "index": 25,
+    "type": "patient_concerns",
+    "text": "patient_concerns: SpO2 dropped to 89% this morning",
+    "source": "patient_concerns[0]"
+  },
+  {
+    "index": 26,
+    "type": "patient_concerns",
+    "text": "patient_concerns: Increased breathlessness compared to usual",
+    "source": "patient_concerns[1]"
+  },
+  {
+    "index": 27,
+    "type": "patient_questions",
+    "text": "patient_questions: Should I use my rescue inhaler more?",
+    "source": "patient_questions[0]"
+  },
+  {
+    "index": 28,
+    "type": "patient_questions",
+    "text": "patient_questions: Do I need to go to hospital?",
+    "source": "patient_questions[1]"
+  }
+]

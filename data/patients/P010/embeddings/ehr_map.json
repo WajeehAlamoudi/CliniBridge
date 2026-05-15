@@ -1,0 +1,134 @@
+[
+  {
+    "index": 0,
+    "type": "name",
+    "text": "name: Emma Wilson",
+    "source": "name"
+  },
+  {
+    "index": 1,
+    "type": "age",
+    "text": "age: 34",
+    "source": "age"
+  },
+  {
+    "index": 2,
+    "type": "gender",
+    "text": "gender: Female",
+    "source": "gender"
+  },
+  {
+    "index": 3,
+    "type": "blood_type",
+    "text": "blood_type: O+",
+    "source": "blood_type"
+  },
+  {
+    "index": 4,
+    "type": "conditions",
+    "text": "name: Asthma | since: 2010 | status: active | icd10: J45.9",
+    "source": "conditions[0]"
+  },
+  {
+    "index": 5,
+    "type": "conditions",
+    "text": "name: Generalized Anxiety Disorder | since: 2019 | status: active | icd10: F41.1",
+    "source": "conditions[1]"
+  },
+  {
+    "index": 6,
+    "type": "medications",
+    "text": "name: Salbutamol | dose: 100mcg | frequency: as needed inhaler | prescribed: 2010-05-01",
+    "source": "medications[0]"
+  },
+  {
+    "index": 7,
+    "type": "medications",
+    "text": "name: Budesonide | dose: 200mcg | frequency: twice daily inhaler | prescribed: 2021-03-01",
+    "source": "medications[1]"
+  },
+  {
+    "index": 8,
+    "type": "medications",
+    "text": "name: Sertraline | dose: 50mg | frequency: daily | prescribed: 2019-11-01",
+    "source": "medications[2]"
+  },
+  {
+    "index": 9,
+    "type": "allergies",
+    "text": "allergies: Latex",
+    "source": "allergies[0]"
+  },
+  {
+    "index": 10,
+    "type": "allergies",
+    "text": "allergies: Cat dander",
+    "source": "allergies[1]"
+  },
+  {
+    "index": 11,
+    "type": "labs",
+    "text": "test: SpO2 baseline | value: 98% | date: 2026-03-05 | status: normal",
+    "source": "labs[0]"
+  },
+  {
+    "index": 12,
+    "type": "labs",
+    "text": "test: Peak flow | value: 85% predicted | date: 2026-03-05 | status: normal",
+    "source": "labs[1]"
+  },
+  {
+    "index": 13,
+    "type": "labs",
+    "text": "test: CBC | value: normal | date: 2026-03-05 | status: normal",
+    "source": "labs[2]"
+  },
+  {
+    "index": 14,
+    "type": "visit_notes",
+    "text": "date: 2026-03-05 | note: Asthma well controlled. No exacerbations in past 6 months. Anxiety managed with Sertraline. Patient reports feeling better.",
+    "source": "visit_notes[0]"
+  },
+  {
+    "index": 15,
+    "type": "visit_notes",
+    "text": "date: 2025-10-20 | note: Mild asthma episode triggered by cold air. Managed with Salbutamol. Resolved within 30 minutes.",
+    "source": "visit_notes[1]"
+  },
+  {
+    "index": 16,
+    "type": "visit_notes",
+    "text": "date: 2025-05-10 | note: Routine follow-up. Asthma and anxiety both stable.",
+    "source": "visit_notes[2]"
+  },
+  {
+    "index": 17,
+    "type": "vitals_baseline.blood_pressure",
+    "text": "vitals_baseline.blood_pressure: 112/72",
+    "source": "vitals_baseline.blood_pressure"
+  },
+  {
+    "index": 18,
+    "type": "vitals_baseline.heart_rate",
+    "text": "vitals_baseline.heart_rate: 76",
+    "source": "vitals_baseline.heart_rate"
+  },
+  {
+    "index": 19,
+    "type": "vitals_baseline.spo2_baseline",
+    "text": "vitals_baseline.spo2_baseline: 98%",
+    "source": "vitals_baseline.spo2_baseline"
+  },
+  {
+    "index": 20,
+    "type": "vitals_baseline.weight_kg",
+    "text": "vitals_baseline.weight_kg: 62",
+    "source": "vitals_baseline.weight_kg"
+  },
+  {
+    "index": 21,
+    "type": "vitals_baseline.height_cm",
+    "text": "vitals_baseline.height_cm: 165",
+    "source": "vitals_baseline.height_cm"
+  }
+]

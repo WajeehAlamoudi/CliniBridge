@@ -1,0 +1,116 @@
+[
+  {
+    "index": 0,
+    "type": "name",
+    "text": "name: David Kim",
+    "source": "name"
+  },
+  {
+    "index": 1,
+    "type": "age",
+    "text": "age: 71",
+    "source": "age"
+  },
+  {
+    "index": 2,
+    "type": "gender",
+    "text": "gender: Male",
+    "source": "gender"
+  },
+  {
+    "index": 3,
+    "type": "blood_type",
+    "text": "blood_type: O-",
+    "source": "blood_type"
+  },
+  {
+    "index": 4,
+    "type": "conditions",
+    "text": "name: Atrial Fibrillation | since: 2022 | status: active | icd10: I48",
+    "source": "conditions[0]"
+  },
+  {
+    "index": 5,
+    "type": "conditions",
+    "text": "name: Hypertension | since: 2014 | status: active | icd10: I10",
+    "source": "conditions[1]"
+  },
+  {
+    "index": 6,
+    "type": "medications",
+    "text": "name: Apixaban | dose: 5mg | frequency: twice daily | prescribed: 2022-06-01",
+    "source": "medications[0]"
+  },
+  {
+    "index": 7,
+    "type": "medications",
+    "text": "name: Metoprolol | dose: 50mg | frequency: twice daily | prescribed: 2022-06-01",
+    "source": "medications[1]"
+  },
+  {
+    "index": 8,
+    "type": "medications",
+    "text": "name: Amlodipine | dose: 10mg | frequency: daily | prescribed: 2014-09-01",
+    "source": "medications[2]"
+  },
+  {
+    "index": 9,
+    "type": "labs",
+    "text": "test: INR | value: 2.4 | date: 2026-04-01 | status: therapeutic",
+    "source": "labs[0]"
+  },
+  {
+    "index": 10,
+    "type": "labs",
+    "text": "test: TSH | value: 2.1 mIU/L | date: 2026-04-01 | status: normal",
+    "source": "labs[1]"
+  },
+  {
+    "index": 11,
+    "type": "labs",
+    "text": "test: Creatinine | value: 1.0 mg/dL | date: 2026-04-01 | status: normal",
+    "source": "labs[2]"
+  },
+  {
+    "index": 12,
+    "type": "visit_notes",
+    "text": "date: 2026-04-01 | note: AF rate controlled. HR 68 bpm. Apixaban therapeutic. No bleeding events.",
+    "source": "visit_notes[0]"
+  },
+  {
+    "index": 13,
+    "type": "visit_notes",
+    "text": "date: 2025-12-15 | note: Holter monitor shows persistent AF. Rate well controlled on Metoprolol.",
+    "source": "visit_notes[1]"
+  },
+  {
+    "index": 14,
+    "type": "visit_notes",
+    "text": "date: 2025-08-10 | note: Routine cardiology follow-up. Echo shows mild left atrial enlargement.",
+    "source": "visit_notes[2]"
+  },
+  {
+    "index": 15,
+    "type": "vitals_baseline.blood_pressure",
+    "text": "vitals_baseline.blood_pressure: 122/78",
+    "source": "vitals_baseline.blood_pressure"
+  },
+  {
+    "index": 16,
+    "type": "vitals_baseline.heart_rate",
+    "text": "vitals_baseline.heart_rate: 68",
+    "source": "vitals_baseline.heart_rate"
+  },
+  {
+    "index": 17,
+    "type": "vitals_baseline.weight_kg",
+    "text": "vitals_baseline.weight_kg: 79",
+    "source": "vitals_baseline.weight_kg"
+  },
+  {
+    "index": 18,
+    "type": "vitals_baseline.height_cm",
+    "text": "vitals_baseline.height_cm: 172",
+    "source": "vitals_baseline.height_cm"
+  }
+]

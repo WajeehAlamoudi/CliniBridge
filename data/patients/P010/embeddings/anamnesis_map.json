@@ -1,0 +1,188 @@
+[
+  {
+    "index": 0,
+    "type": "chief_complaint.description",
+    "text": "chief_complaint.description: Increased heart rate and shortness of breath",
+    "source": "chief_complaint.description"
+  },
+  {
+    "index": 1,
+    "type": "chief_complaint.onset",
+    "text": "chief_complaint.onset: 2026-05-14",
+    "source": "chief_complaint.onset"
+  },
+  {
+    "index": 2,
+    "type": "chief_complaint.duration",
+    "text": "chief_complaint.duration: 30 minutes",
+    "source": "chief_complaint.duration"
+  },
+  {
+    "index": 3,
+    "type": "symptom_log",
+    "text": "symptom: shortness of breath | onset: 2026-05-14 | duration: 30 minutes | severity: moderate | character: feels like cannot get enough air",
+    "source": "symptom_log[0]"
+  },
+  {
+    "index": 4,
+    "type": "symptom_log",
+    "text": "symptom: elevated heart rate | onset: 2026-05-14 | duration: 30 minutes | severity: moderate | value: HR 108 on monitor",
+    "source": "symptom_log[1]"
+  },
+  {
+    "index": 5,
+    "type": "symptom_log",
+    "text": "symptom: chest tightness | onset: 2026-05-14 | duration: 20 minutes | severity: mild",
+    "source": "symptom_log[2]"
+  },
+  {
+    "index": 6,
+    "type": "medication_adherence.Salbutamol.status",
+    "text": "medication_adherence.Salbutamol.status: used today",
+    "source": "medication_adherence.Salbutamol.status"
+  },
+  {
+    "index": 7,
+    "type": "medication_adherence.Salbutamol.note",
+    "text": "medication_adherence.Salbutamol.note: used rescue inhaler once this morning, symptoms improved partially",
+    "source": "medication_adherence.Salbutamol.note"
+  },
+  {
+    "index": 8,
+    "type": "medication_adherence.Budesonide.status",
+    "text": "medication_adherence.Budesonide.status: taking",
+    "source": "medication_adherence.Budesonide.status"
+  },
+  {
+    "index": 9,
+    "type": "medication_adherence.Budesonide.as_prescribed",
+    "text": "medication_adherence.Budesonide.as_prescribed: True",
+    "source": "medication_adherence.Budesonide.as_prescribed"
+  },
+  {
+    "index": 10,
+    "type": "medication_adherence.Budesonide.missed_doses_last_week",
+    "text": "medication_adherence.Budesonide.missed_doses_last_week: 0",
+    "source": "medication_adherence.Budesonide.missed_doses_last_week"
+  },
+  {
+    "index": 11,
+    "type": "medication_adherence.Sertraline_50mg.status",
+    "text": "medication_adherence.Sertraline_50mg.status: taking",
+    "source": "medication_adherence.Sertraline_50mg.status"
+  },
+  {
+    "index": 12,
+    "type": "medication_adherence.Sertraline_50mg.as_prescribed",
+    "text": "medication_adherence.Sertraline_50mg.as_prescribed: True",
+    "source": "medication_adherence.Sertraline_50mg.as_prescribed"
+  },
+  {
+    "index": 13,
+    "type": "medication_adherence.Sertraline_50mg.missed_doses_last_week",
+    "text": "medication_adherence.Sertraline_50mg.missed_doses_last_week: 0",
+    "source": "medication_adherence.Sertraline_50mg.missed_doses_last_week"
+  },
+  {
+    "index": 14,
+    "type": "lifestyle.diet.changes_recently",
+    "text": "lifestyle.diet.changes_recently: False",
+    "source": "lifestyle.diet.changes_recently"
+  },
+  {
+    "index": 15,
+    "type": "lifestyle.diet.salt_intake",
+    "text": "lifestyle.diet.salt_intake: normal",
+    "source": "lifestyle.diet.salt_intake"
+  },
+  {
+    "index": 16,
+    "type": "lifestyle.physical_activity.usual_level",
+    "text": "lifestyle.physical_activity.usual_level: moderate",
+    "source": "lifestyle.physical_activity.usual_level"
+  },
+  {
+    "index": 17,
+    "type": "lifestyle.physical_activity.current_level",
+    "text": "lifestyle.physical_activity.current_level: moderate",
+    "source": "lifestyle.physical_activity.current_level"
+  },
+  {
+    "index": 18,
+    "type": "lifestyle.smoking.status",
+    "text": "lifestyle.smoking.status: never",
+    "source": "lifestyle.smoking.status"
+  },
+  {
+    "index": 19,
+    "type": "lifestyle.alcohol.status",
+    "text": "lifestyle.alcohol.status: occasional",
+    "source": "lifestyle.alcohol.status"
+  },
+  {
+    "index": 20,
+    "type": "lifestyle.alcohol.frequency",
+    "text": "lifestyle.alcohol.frequency: 1 drink per week",
+    "source": "lifestyle.alcohol.frequency"
+  },
+  {
+    "index": 21,
+    "type": "lifestyle.stress_level",
+    "text": "lifestyle.stress_level: very high",
+    "source": "lifestyle.stress_level"
+  },
+  {
+    "index": 22,
+    "type": "lifestyle.stress_source",
+    "text": "lifestyle.stress_source: important job interview today, feeling very anxious",
+    "source": "lifestyle.stress_source"
+  },
+  {
+    "index": 23,
+    "type": "family_history",
+    "text": "condition: Asthma | relation: Mother | age_of_onset: 20",
+    "source": "family_history[0]"
+  },
+  {
+    "index": 24,
+    "type": "family_history",
+    "text": "condition: Anxiety | relation: Sister | age_of_onset: 25",
+    "source": "family_history[1]"
+  },
+  {
+    "index": 25,
+    "type": "patient_concerns",
+    "text": "patient_concerns: Not sure if this is an asthma attack or panic attack",
+    "source": "patient_concerns[0]"
+  },
+  {
+    "index": 26,
+    "type": "patient_concerns",
+    "text": "patient_concerns: Heart is racing",
+    "source": "patient_concerns[1]"
+  },
+  {
+    "index": 27,
+    "type": "patient_concerns",
+    "text": "patient_concerns: Very anxious about job interview today",
+    "source": "patient_concerns[2]"
+  },
+  {
+    "index": 28,
+    "type": "patient_questions",
+    "text": "patient_questions: Is this asthma or anxiety?",
+    "source": "patient_questions[0]"
+  },
+  {
+    "index": 29,
+    "type": "patient_questions",
+    "text": "patient_questions: Should I use my inhaler again?",
+    "source": "patient_questions[1]"
+  },
+  {
+    "index": 30,
+    "type": "patient_questions",
+    "text": "patient_questions: Is my heart rate dangerous?",
+    "source": "patient_questions[2]"
+  }
+]

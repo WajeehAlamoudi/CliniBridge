@@ -1,0 +1,61 @@
+{
+  "patient_id": "P001",
+  "recorded_at": "2026-05-14T09:00:00Z",
+  "chief_complaint": {
+    "description": "Headache and dizziness since yesterday",
+    "onset": "2026-05-13",
+    "duration": "1 day"
+  },
+  "history_of_present_illness": {
+    "summary": "54 year old male with known hypertension presenting with elevated BP on home monitor. Stopped Lisinopril 10 days ago due to persistent dry cough. Now experiencing headaches and dizziness.",
+    "timeline": [
+      {"date": "2026-04-20", "event": "Dry cough started"},
+      {"date": "2026-05-04", "event": "Patient self-discontinued Lisinopril due to dry cough"},
+      {"date": "2026-05-13", "event": "Headache and dizziness started"},
+      {"date": "2026-05-14", "event": "Home BP monitor showed 178/108"}
+    ]
+  },
+  "symptom_log": [
+    {"symptom": "dry cough", "onset": "2026-04-20", "duration": "3 weeks", "severity": "moderate", "character": "persistent, worse at night"},
+    {"symptom": "headache", "onset": "2026-05-13", "duration": "2 days", "severity": "moderate", "character": "pressure-like, frontal"},
+    {"symptom": "dizziness", "onset": "2026-05-14", "duration": "1 day", "severity": "mild", "character": "lightheadedness when standing"}
+  ],
+  "medication_adherence": {
+    "Lisinopril_10mg": {
+      "status": "stopped",
+      "reason": "persistent dry cough believed to be medication side effect",
+      "stopped_since": "2026-05-04",
+      "consulted_doctor_before_stopping": false
+    },
+    "Atorvastatin_20mg": {
+      "status": "taking",
+      "as_prescribed": true,
+      "last_taken": "2026-05-14",
+      "missed_doses_last_week": 0
+    }
+  },
+  "review_of_systems": {
+    "cardiovascular": {"chest_pain": false, "palpitations": false, "shortness_of_breath": false},
+    "neurological": {"headache": true, "dizziness": true, "vision_changes": false},
+    "respiratory": {"cough": true, "wheezing": false}
+  },
+  "lifestyle": {
+    "diet": {"changes_recently": false, "salt_intake": "low"},
+    "physical_activity": {"usual_level": "moderate", "current_level": "reduced"},
+    "smoking": {"status": "never"},
+    "alcohol": {"status": "occasional", "frequency": "1-2 drinks per week"},
+    "stress_level": "moderate"
+  },
+  "family_history": [
+    {"condition": "Hypertension", "relation": "Father", "age_of_onset": 50},
+    {"condition": "Stroke", "relation": "Paternal Uncle", "age_of_onset": 62}
+  ],
+  "patient_concerns": [
+    "Worried the dry cough is caused by blood pressure medication",
+    "Concerned about headaches getting worse"
+  ],
+  "patient_questions": [
+    "Is there an alternative to Lisinopril that does not cause cough?",
+    "How dangerous is it that I stopped my medication?"
+  ]
+}

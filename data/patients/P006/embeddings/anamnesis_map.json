@@ -1,0 +1,164 @@
+[
+  {
+    "index": 0,
+    "type": "chief_complaint.description",
+    "text": "chief_complaint.description: Fatigue and reduced urine output",
+    "source": "chief_complaint.description"
+  },
+  {
+    "index": 1,
+    "type": "chief_complaint.onset",
+    "text": "chief_complaint.onset: 2026-05-12",
+    "source": "chief_complaint.onset"
+  },
+  {
+    "index": 2,
+    "type": "chief_complaint.duration",
+    "text": "chief_complaint.duration: 2 days",
+    "source": "chief_complaint.duration"
+  },
+  {
+    "index": 3,
+    "type": "symptom_log",
+    "text": "symptom: fatigue | onset: 2026-05-12 | duration: 2 days | severity: moderate",
+    "source": "symptom_log[0]"
+  },
+  {
+    "index": 4,
+    "type": "symptom_log",
+    "text": "symptom: reduced urine output | onset: 2026-05-13 | duration: 1 day | severity: mild",
+    "source": "symptom_log[1]"
+  },
+  {
+    "index": 5,
+    "type": "medication_adherence.Amlodipine_5mg.status",
+    "text": "medication_adherence.Amlodipine_5mg.status: taking",
+    "source": "medication_adherence.Amlodipine_5mg.status"
+  },
+  {
+    "index": 6,
+    "type": "medication_adherence.Amlodipine_5mg.as_prescribed",
+    "text": "medication_adherence.Amlodipine_5mg.as_prescribed: True",
+    "source": "medication_adherence.Amlodipine_5mg.as_prescribed"
+  },
+  {
+    "index": 7,
+    "type": "medication_adherence.Amlodipine_5mg.missed_doses_last_week",
+    "text": "medication_adherence.Amlodipine_5mg.missed_doses_last_week: 0",
+    "source": "medication_adherence.Amlodipine_5mg.missed_doses_last_week"
+  },
+  {
+    "index": 8,
+    "type": "medication_adherence.Erythropoietin.status",
+    "text": "medication_adherence.Erythropoietin.status: taking",
+    "source": "medication_adherence.Erythropoietin.status"
+  },
+  {
+    "index": 9,
+    "type": "medication_adherence.Erythropoietin.as_prescribed",
+    "text": "medication_adherence.Erythropoietin.as_prescribed: True",
+    "source": "medication_adherence.Erythropoietin.as_prescribed"
+  },
+  {
+    "index": 10,
+    "type": "medication_adherence.Erythropoietin.missed_doses_last_week",
+    "text": "medication_adherence.Erythropoietin.missed_doses_last_week: 0",
+    "source": "medication_adherence.Erythropoietin.missed_doses_last_week"
+  },
+  {
+    "index": 11,
+    "type": "medication_adherence.Sodium_Bicarbonate.status",
+    "text": "medication_adherence.Sodium_Bicarbonate.status: taking",
+    "source": "medication_adherence.Sodium_Bicarbonate.status"
+  },
+  {
+    "index": 12,
+    "type": "medication_adherence.Sodium_Bicarbonate.as_prescribed",
+    "text": "medication_adherence.Sodium_Bicarbonate.as_prescribed: True",
+    "source": "medication_adherence.Sodium_Bicarbonate.as_prescribed"
+  },
+  {
+    "index": 13,
+    "type": "medication_adherence.Sodium_Bicarbonate.missed_doses_last_week",
+    "text": "medication_adherence.Sodium_Bicarbonate.missed_doses_last_week: 0",
+    "source": "medication_adherence.Sodium_Bicarbonate.missed_doses_last_week"
+  },
+  {
+    "index": 14,
+    "type": "lifestyle.diet.changes_recently",
+    "text": "lifestyle.diet.changes_recently: True",
+    "source": "lifestyle.diet.changes_recently"
+  },
+  {
+    "index": 15,
+    "type": "lifestyle.diet.description",
+    "text": "lifestyle.diet.description: Ate high potassium foods including bananas and oranges this week",
+    "source": "lifestyle.diet.description"
+  },
+  {
+    "index": 16,
+    "type": "lifestyle.diet.salt_intake",
+    "text": "lifestyle.diet.salt_intake: low",
+    "source": "lifestyle.diet.salt_intake"
+  },
+  {
+    "index": 17,
+    "type": "lifestyle.physical_activity.usual_level",
+    "text": "lifestyle.physical_activity.usual_level: light",
+    "source": "lifestyle.physical_activity.usual_level"
+  },
+  {
+    "index": 18,
+    "type": "lifestyle.physical_activity.current_level",
+    "text": "lifestyle.physical_activity.current_level: very light",
+    "source": "lifestyle.physical_activity.current_level"
+  },
+  {
+    "index": 19,
+    "type": "lifestyle.smoking.status",
+    "text": "lifestyle.smoking.status: never",
+    "source": "lifestyle.smoking.status"
+  },
+  {
+    "index": 20,
+    "type": "lifestyle.alcohol.status",
+    "text": "lifestyle.alcohol.status: none",
+    "source": "lifestyle.alcohol.status"
+  },
+  {
+    "index": 21,
+    "type": "lifestyle.stress_level",
+    "text": "lifestyle.stress_level: low",
+    "source": "lifestyle.stress_level"
+  },
+  {
+    "index": 22,
+    "type": "family_history",
+    "text": "condition: Chronic Kidney Disease | relation: Brother | age_of_onset: 60",
+    "source": "family_history[0]"
+  },
+  {
+    "index": 23,
+    "type": "patient_concerns",
+    "text": "patient_concerns: Worried about kidney function declining",
+    "source": "patient_concerns[0]"
+  },
+  {
+    "index": 24,
+    "type": "patient_concerns",
+    "text": "patient_concerns: Feeling more tired than usual",
+    "source": "patient_concerns[1]"
+  },
+  {
+    "index": 25,
+    "type": "patient_questions",
+    "text": "patient_questions: Is my kidney getting worse?",
+    "source": "patient_questions[0]"
+  },
+  {
+    "index": 26,
+    "type": "patient_questions",
+    "text": "patient_questions: Should I go to the hospital?",
+    "source": "patient_questions[1]"
+  }
+]

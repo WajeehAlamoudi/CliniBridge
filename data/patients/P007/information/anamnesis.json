@@ -1,0 +1,28 @@
+{
+  "patient_id": "P007",
+  "recorded_at": "2026-05-14T07:30:00Z",
+  "chief_complaint": {"description": "Irregular heartbeat and palpitations since this morning", "onset": "2026-05-14", "duration": "few hours"},
+  "symptom_log": [
+    {"symptom": "palpitations", "onset": "2026-05-14", "duration": "3 hours", "severity": "moderate", "character": "irregular, racing feeling"},
+    {"symptom": "mild shortness of breath", "onset": "2026-05-14", "duration": "2 hours", "severity": "mild"}
+  ],
+  "medication_adherence": {
+    "Apixaban_5mg": {"status": "taking", "as_prescribed": true, "missed_doses_last_week": 0},
+    "Metoprolol_50mg": {"status": "taking", "as_prescribed": true, "missed_doses_last_week": 1, "note": "missed yesterday evening dose"},
+    "Amlodipine_10mg": {"status": "taking", "as_prescribed": true, "missed_doses_last_week": 0}
+  },
+  "lifestyle": {
+    "diet": {"changes_recently": false, "salt_intake": "low"},
+    "physical_activity": {"usual_level": "light", "current_level": "light"},
+    "smoking": {"status": "former", "quit_year": 2005},
+    "alcohol": {"status": "occasional", "frequency": "1 drink per week"},
+    "stress_level": "moderate",
+    "stress_source": "family issues"
+  },
+  "family_history": [
+    {"condition": "Atrial Fibrillation", "relation": "Father", "age_of_onset": 68},
+    {"condition": "Stroke", "relation": "Father", "age_of_onset": 72}
+  ],
+  "patient_concerns": ["Worried about stroke risk", "Heart feels like it is skipping beats"],
+  "patient_questions": ["Is this dangerous?", "Should I go to the emergency room?"]
+}

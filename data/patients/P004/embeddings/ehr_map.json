@@ -1,0 +1,74 @@
+[
+  {
+    "index": 0,
+    "type": "name",
+    "text": "name: Maria Lopez",
+    "source": "name"
+  },
+  {
+    "index": 1,
+    "type": "age",
+    "text": "age: 61",
+    "source": "age"
+  },
+  {
+    "index": 2,
+    "type": "gender",
+    "text": "gender: Female",
+    "source": "gender"
+  },
+  {
+    "index": 3,
+    "type": "blood_type",
+    "text": "blood_type: Unknown",
+    "source": "blood_type"
+  },
+  {
+    "index": 4,
+    "type": "conditions",
+    "text": "name: Hypertension | since: unknown | status: active | icd10: I10",
+    "source": "conditions[0]"
+  },
+  {
+    "index": 5,
+    "type": "medications",
+    "text": "name: Amlodipine | dose: unknown | frequency: unknown | prescribed: unknown",
+    "source": "medications[0]"
+  },
+  {
+    "index": 6,
+    "type": "allergies",
+    "text": "allergies: unknown",
+    "source": "allergies[0]"
+  },
+  {
+    "index": 7,
+    "type": "visit_notes",
+    "text": "date: 2026-05-01 | note: Patient transferred from another facility. Records requested but not yet received. Patient reports history of high blood pressure and takes a calcium channel blocker. No other records available.",
+    "source": "visit_notes[0]"
+  },
+  {
+    "index": 8,
+    "type": "vitals_baseline.blood_pressure",
+    "text": "vitals_baseline.blood_pressure: unknown",
+    "source": "vitals_baseline.blood_pressure"
+  },
+  {
+    "index": 9,
+    "type": "vitals_baseline.heart_rate",
+    "text": "vitals_baseline.heart_rate: unknown",
+    "source": "vitals_baseline.heart_rate"
+  },
+  {
+    "index": 10,
+    "type": "vitals_baseline.weight_kg",
+    "text": "vitals_baseline.weight_kg: unknown",
+    "source": "vitals_baseline.weight_kg"
+  },
+  {
+    "index": 11,
+    "type": "vitals_baseline.height_cm",
+    "text": "vitals_baseline.height_cm: 160",
+    "source": "vitals_baseline.height_cm"
+  }
+]

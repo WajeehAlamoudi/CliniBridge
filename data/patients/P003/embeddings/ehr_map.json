@@ -1,0 +1,140 @@
+[
+  {
+    "index": 0,
+    "type": "name",
+    "text": "name: Robert Mills",
+    "source": "name"
+  },
+  {
+    "index": 1,
+    "type": "age",
+    "text": "age: 67",
+    "source": "age"
+  },
+  {
+    "index": 2,
+    "type": "gender",
+    "text": "gender: Male",
+    "source": "gender"
+  },
+  {
+    "index": 3,
+    "type": "blood_type",
+    "text": "blood_type: O+",
+    "source": "blood_type"
+  },
+  {
+    "index": 4,
+    "type": "conditions",
+    "text": "name: Heart Failure with reduced ejection fraction | since: 2023 | status: active | icd10: I50.2",
+    "source": "conditions[0]"
+  },
+  {
+    "index": 5,
+    "type": "conditions",
+    "text": "name: Hypertension | since: 2015 | status: active | icd10: I10",
+    "source": "conditions[1]"
+  },
+  {
+    "index": 6,
+    "type": "conditions",
+    "text": "name: Type 2 Diabetes | since: 2017 | status: active | icd10: E11",
+    "source": "conditions[2]"
+  },
+  {
+    "index": 7,
+    "type": "medications",
+    "text": "name: Furosemide | dose: 40mg | frequency: daily | prescribed: 2023-05-10",
+    "source": "medications[0]"
+  },
+  {
+    "index": 8,
+    "type": "medications",
+    "text": "name: Carvedilol | dose: 12.5mg | frequency: twice daily | prescribed: 2023-05-10",
+    "source": "medications[1]"
+  },
+  {
+    "index": 9,
+    "type": "medications",
+    "text": "name: Sacubitril-Valsartan | dose: 49/51mg | frequency: twice daily | prescribed: 2023-08-01",
+    "source": "medications[2]"
+  },
+  {
+    "index": 10,
+    "type": "medications",
+    "text": "name: Spironolactone | dose: 25mg | frequency: daily | prescribed: 2023-05-10",
+    "source": "medications[3]"
+  },
+  {
+    "index": 11,
+    "type": "allergies",
+    "text": "allergies: Aspirin",
+    "source": "allergies[0]"
+  },
+  {
+    "index": 12,
+    "type": "labs",
+    "text": "test: BNP | value: 380 pg/mL | date: 2026-03-01 | status: elevated",
+    "source": "labs[0]"
+  },
+  {
+    "index": 13,
+    "type": "labs",
+    "text": "test: Creatinine | value: 1.4 mg/dL | date: 2026-03-01 | status: mildly elevated",
+    "source": "labs[1]"
+  },
+  {
+    "index": 14,
+    "type": "labs",
+    "text": "test: Potassium | value: 4.2 mEq/L | date: 2026-03-01 | status: normal",
+    "source": "labs[2]"
+  },
+  {
+    "index": 15,
+    "type": "labs",
+    "text": "test: Sodium | value: 138 mEq/L | date: 2026-03-01 | status: normal",
+    "source": "labs[3]"
+  },
+  {
+    "index": 16,
+    "type": "visit_notes",
+    "text": "date: 2026-03-01 | note: Weight 88kg. Mild ankle edema. BNP elevated at 380. Increased Furosemide monitoring.",
+    "source": "visit_notes[0]"
+  },
+  {
+    "index": 17,
+    "type": "visit_notes",
+    "text": "date: 2026-01-10 | note: Weight 86kg. Stable. EF 35% on echo. Continue current medications.",
+    "source": "visit_notes[1]"
+  },
+  {
+    "index": 18,
+    "type": "visit_notes",
+    "text": "date: 2025-10-05 | note: Weight 85kg. No edema. Patient compliant. Feeling well.",
+    "source": "visit_notes[2]"
+  },
+  {
+    "index": 19,
+    "type": "vitals_baseline.blood_pressure",
+    "text": "vitals_baseline.blood_pressure: 118/75",
+    "source": "vitals_baseline.blood_pressure"
+  },
+  {
+    "index": 20,
+    "type": "vitals_baseline.heart_rate",
+    "text": "vitals_baseline.heart_rate: 65",
+    "source": "vitals_baseline.heart_rate"
+  },
+  {
+    "index": 21,
+    "type": "vitals_baseline.weight_kg",
+    "text": "vitals_baseline.weight_kg: 86",
+    "source": "vitals_baseline.weight_kg"
+  },
+  {
+    "index": 22,
+    "type": "vitals_baseline.height_cm",
+    "text": "vitals_baseline.height_cm: 174",
+    "source": "vitals_baseline.height_cm"
+  }
+]

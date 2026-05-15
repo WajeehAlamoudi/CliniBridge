@@ -1,0 +1,116 @@
+[
+  {
+    "index": 0,
+    "type": "name",
+    "text": "name: John Doe",
+    "source": "name"
+  },
+  {
+    "index": 1,
+    "type": "age",
+    "text": "age: 54",
+    "source": "age"
+  },
+  {
+    "index": 2,
+    "type": "gender",
+    "text": "gender: Male",
+    "source": "gender"
+  },
+  {
+    "index": 3,
+    "type": "blood_type",
+    "text": "blood_type: A+",
+    "source": "blood_type"
+  },
+  {
+    "index": 4,
+    "type": "conditions",
+    "text": "name: Hypertension | since: 2021 | status: active | icd10: I10",
+    "source": "conditions[0]"
+  },
+  {
+    "index": 5,
+    "type": "conditions",
+    "text": "name: Dyslipidemia | since: 2022 | status: active | icd10: E78.5",
+    "source": "conditions[1]"
+  },
+  {
+    "index": 6,
+    "type": "medications",
+    "text": "name: Lisinopril | dose: 10mg | frequency: daily | prescribed: 2021-03-10",
+    "source": "medications[0]"
+  },
+  {
+    "index": 7,
+    "type": "medications",
+    "text": "name: Atorvastatin | dose: 20mg | frequency: nightly | prescribed: 2022-01-15",
+    "source": "medications[1]"
+  },
+  {
+    "index": 8,
+    "type": "allergies",
+    "text": "allergies: Penicillin",
+    "source": "allergies[0]"
+  },
+  {
+    "index": 9,
+    "type": "labs",
+    "text": "test: Potassium | value: 4.0 mEq/L | date: 2026-01-10 | status: normal",
+    "source": "labs[0]"
+  },
+  {
+    "index": 10,
+    "type": "labs",
+    "text": "test: Creatinine | value: 1.1 mg/dL | date: 2026-01-10 | status: normal",
+    "source": "labs[1]"
+  },
+  {
+    "index": 11,
+    "type": "labs",
+    "text": "test: LDL | value: 98 mg/dL | date: 2026-01-10 | status: normal",
+    "source": "labs[2]"
+  },
+  {
+    "index": 12,
+    "type": "visit_notes",
+    "text": "date: 2026-02-10 | note: BP 128/84. Well controlled. Patient compliant with medications. No complaints.",
+    "source": "visit_notes[0]"
+  },
+  {
+    "index": 13,
+    "type": "visit_notes",
+    "text": "date: 2025-11-05 | note: BP slightly elevated 142/90. Discussed salt restriction and medication compliance.",
+    "source": "visit_notes[1]"
+  },
+  {
+    "index": 14,
+    "type": "visit_notes",
+    "text": "date: 2025-08-20 | note: Routine follow-up. BP 130/86. Lipids well controlled on Atorvastatin.",
+    "source": "visit_notes[2]"
+  },
+  {
+    "index": 15,
+    "type": "vitals_baseline.blood_pressure",
+    "text": "vitals_baseline.blood_pressure: 130/85",
+    "source": "vitals_baseline.blood_pressure"
+  },
+  {
+    "index": 16,
+    "type": "vitals_baseline.heart_rate",
+    "text": "vitals_baseline.heart_rate: 72",
+    "source": "vitals_baseline.heart_rate"
+  },
+  {
+    "index": 17,
+    "type": "vitals_baseline.weight_kg",
+    "text": "vitals_baseline.weight_kg: 85",
+    "source": "vitals_baseline.weight_kg"
+  },
+  {
+    "index": 18,
+    "type": "vitals_baseline.height_cm",
+    "text": "vitals_baseline.height_cm: 178",
+    "source": "vitals_baseline.height_cm"
+  }
+]

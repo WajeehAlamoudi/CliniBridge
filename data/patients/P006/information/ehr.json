@@ -1,0 +1,35 @@
+{
+  "patient_id": "P006",
+  "name": "Linda Chen",
+  "age": 63,
+  "gender": "Female",
+  "blood_type": "A-",
+  "conditions": [
+    {"name": "Chronic Kidney Disease Stage 3", "since": "2020", "status": "active", "icd10": "N18.3"},
+    {"name": "Hypertension", "since": "2016", "status": "active", "icd10": "I10"},
+    {"name": "Anemia", "since": "2021", "status": "active", "icd10": "D63.1"}
+  ],
+  "medications": [
+    {"name": "Amlodipine", "dose": "5mg", "frequency": "daily", "prescribed": "2016-04-01"},
+    {"name": "Erythropoietin", "dose": "4000 IU", "frequency": "weekly", "prescribed": "2021-09-01"},
+    {"name": "Sodium Bicarbonate", "dose": "650mg", "frequency": "twice daily", "prescribed": "2020-11-01"}
+  ],
+  "allergies": ["Sulfa drugs"],
+  "labs": [
+    {"test": "eGFR", "value": "42 mL/min", "date": "2026-03-10", "status": "reduced"},
+    {"test": "Creatinine", "value": "1.8 mg/dL", "date": "2026-03-10", "status": "elevated"},
+    {"test": "Hemoglobin", "value": "10.2 g/dL", "date": "2026-03-10", "status": "low"},
+    {"test": "Potassium", "value": "5.1 mEq/L", "date": "2026-03-10", "status": "borderline high"}
+  ],
+  "visit_notes": [
+    {"date": "2026-03-10", "note": "eGFR stable at 42. Hemoglobin low, Erythropoietin dose maintained. Potassium borderline, advised low potassium diet."},
+    {"date": "2025-11-20", "note": "Routine nephrology follow-up. BP well controlled. No significant changes."},
+    {"date": "2025-07-15", "note": "eGFR 44. Slight decline from previous. Dietary counseling provided."}
+  ],
+  "vitals_baseline": {
+    "blood_pressure": "128/80",
+    "heart_rate": 74,
+    "weight_kg": 68,
+    "height_cm": 158
+  }
+}

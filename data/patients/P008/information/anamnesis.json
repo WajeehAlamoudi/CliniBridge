@@ -1,0 +1,27 @@
+{
+  "patient_id": "P008",
+  "recorded_at": "2026-05-14T08:45:00Z",
+  "chief_complaint": {"description": "Low oxygen reading on home pulse oximeter", "onset": "2026-05-14", "duration": "this morning"},
+  "symptom_log": [
+    {"symptom": "increased shortness of breath", "onset": "2026-05-13", "duration": "2 days", "severity": "moderate"},
+    {"symptom": "productive cough", "onset": "2026-05-12", "duration": "3 days", "severity": "mild", "character": "yellow sputum"},
+    {"symptom": "low grade fever", "onset": "2026-05-13", "duration": "2 days", "severity": "mild", "value": "37.8C"}
+  ],
+  "medication_adherence": {
+    "Tiotropium": {"status": "taking", "as_prescribed": true, "missed_doses_last_week": 0},
+    "Salmeterol_Fluticasone": {"status": "taking", "as_prescribed": true, "missed_doses_last_week": 0},
+    "Amlodipine_5mg": {"status": "taking", "as_prescribed": true, "missed_doses_last_week": 0}
+  },
+  "lifestyle": {
+    "diet": {"changes_recently": false, "salt_intake": "normal"},
+    "physical_activity": {"usual_level": "light", "current_level": "minimal"},
+    "smoking": {"status": "former", "quit_year": 2019, "pack_years": 30},
+    "alcohol": {"status": "none"},
+    "stress_level": "low"
+  },
+  "family_history": [
+    {"condition": "COPD", "relation": "Father", "age_of_onset": 60}
+  ],
+  "patient_concerns": ["SpO2 dropped to 89% this morning", "Increased breathlessness compared to usual"],
+  "patient_questions": ["Should I use my rescue inhaler more?", "Do I need to go to hospital?"]
+}

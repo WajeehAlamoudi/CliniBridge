@@ -1,0 +1,32 @@
+{
+  "patient_id": "P002",
+  "name": "Sara Ahmed",
+  "age": 45,
+  "gender": "Female",
+  "blood_type": "B+",
+  "conditions": [
+    {"name": "Type 2 Diabetes", "since": "2018", "status": "active", "icd10": "E11"},
+    {"name": "Obesity", "since": "2018", "status": "active", "icd10": "E66"}
+  ],
+  "medications": [
+    {"name": "Metformin", "dose": "1000mg", "frequency": "twice daily", "prescribed": "2018-06-01"},
+    {"name": "Empagliflozin", "dose": "10mg", "frequency": "daily", "prescribed": "2023-03-15"}
+  ],
+  "allergies": [],
+  "labs": [
+    {"test": "HbA1c", "value": "7.4%", "date": "2026-02-01", "status": "slightly elevated"},
+    {"test": "Fasting glucose", "value": "138 mg/dL", "date": "2026-02-01", "status": "elevated"},
+    {"test": "Creatinine", "value": "0.9 mg/dL", "date": "2026-02-01", "status": "normal"}
+  ],
+  "visit_notes": [
+    {"date": "2026-02-01", "note": "HbA1c 7.4%. Discussed dietary changes. Patient planning dietary modification next month."},
+    {"date": "2025-10-10", "note": "Glucose well controlled. Patient compliant with Metformin and Empagliflozin."},
+    {"date": "2025-06-15", "note": "Routine follow-up. Weight stable. No complications noted."}
+  ],
+  "vitals_baseline": {
+    "blood_pressure": "125/80",
+    "heart_rate": 78,
+    "weight_kg": 92,
+    "height_cm": 163
+  }
+}

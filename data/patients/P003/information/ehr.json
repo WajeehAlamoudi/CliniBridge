@@ -1,0 +1,36 @@
+{
+  "patient_id": "P003",
+  "name": "Robert Mills",
+  "age": 67,
+  "gender": "Male",
+  "blood_type": "O+",
+  "conditions": [
+    {"name": "Heart Failure with reduced ejection fraction", "since": "2023", "status": "active", "icd10": "I50.2"},
+    {"name": "Hypertension", "since": "2015", "status": "active", "icd10": "I10"},
+    {"name": "Type 2 Diabetes", "since": "2017", "status": "active", "icd10": "E11"}
+  ],
+  "medications": [
+    {"name": "Furosemide", "dose": "40mg", "frequency": "daily", "prescribed": "2023-05-10"},
+    {"name": "Carvedilol", "dose": "12.5mg", "frequency": "twice daily", "prescribed": "2023-05-10"},
+    {"name": "Sacubitril-Valsartan", "dose": "49/51mg", "frequency": "twice daily", "prescribed": "2023-08-01"},
+    {"name": "Spironolactone", "dose": "25mg", "frequency": "daily", "prescribed": "2023-05-10"}
+  ],
+  "allergies": ["Aspirin"],
+  "labs": [
+    {"test": "BNP", "value": "380 pg/mL", "date": "2026-03-01", "status": "elevated"},
+    {"test": "Creatinine", "value": "1.4 mg/dL", "date": "2026-03-01", "status": "mildly elevated"},
+    {"test": "Potassium", "value": "4.2 mEq/L", "date": "2026-03-01", "status": "normal"},
+    {"test": "Sodium", "value": "138 mEq/L", "date": "2026-03-01", "status": "normal"}
+  ],
+  "visit_notes": [
+    {"date": "2026-03-01", "note": "Weight 88kg. Mild ankle edema. BNP elevated at 380. Increased Furosemide monitoring."},
+    {"date": "2026-01-10", "note": "Weight 86kg. Stable. EF 35% on echo. Continue current medications."},
+    {"date": "2025-10-05", "note": "Weight 85kg. No edema. Patient compliant. Feeling well."}
+  ],
+  "vitals_baseline": {
+    "blood_pressure": "118/75",
+    "heart_rate": 65,
+    "weight_kg": 86,
+    "height_cm": 174
+  }
+}

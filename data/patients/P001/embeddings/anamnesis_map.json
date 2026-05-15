@@ -1,0 +1,248 @@
+[
+  {
+    "index": 0,
+    "type": "chief_complaint.description",
+    "text": "chief_complaint.description: Headache and dizziness since yesterday",
+    "source": "chief_complaint.description"
+  },
+  {
+    "index": 1,
+    "type": "chief_complaint.onset",
+    "text": "chief_complaint.onset: 2026-05-13",
+    "source": "chief_complaint.onset"
+  },
+  {
+    "index": 2,
+    "type": "chief_complaint.duration",
+    "text": "chief_complaint.duration: 1 day",
+    "source": "chief_complaint.duration"
+  },
+  {
+    "index": 3,
+    "type": "history_of_present_illness.summary",
+    "text": "history_of_present_illness.summary: 54 year old male with known hypertension presenting with elevated BP on home monitor. Stopped Lisinopril 10 days ago due to persistent dry cough. Now experiencing headaches and dizziness.",
+    "source": "history_of_present_illness.summary"
+  },
+  {
+    "index": 4,
+    "type": "history_of_present_illness.timeline",
+    "text": "date: 2026-04-20 | event: Dry cough started",
+    "source": "history_of_present_illness.timeline[0]"
+  },
+  {
+    "index": 5,
+    "type": "history_of_present_illness.timeline",
+    "text": "date: 2026-05-04 | event: Patient self-discontinued Lisinopril due to dry cough",
+    "source": "history_of_present_illness.timeline[1]"
+  },
+  {
+    "index": 6,
+    "type": "history_of_present_illness.timeline",
+    "text": "date: 2026-05-13 | event: Headache and dizziness started",
+    "source": "history_of_present_illness.timeline[2]"
+  },
+  {
+    "index": 7,
+    "type": "history_of_present_illness.timeline",
+    "text": "date: 2026-05-14 | event: Home BP monitor showed 178/108",
+    "source": "history_of_present_illness.timeline[3]"
+  },
+  {
+    "index": 8,
+    "type": "symptom_log",
+    "text": "symptom: dry cough | onset: 2026-04-20 | duration: 3 weeks | severity: moderate | character: persistent, worse at night",
+    "source": "symptom_log[0]"
+  },
+  {
+    "index": 9,
+    "type": "symptom_log",
+    "text": "symptom: headache | onset: 2026-05-13 | duration: 2 days | severity: moderate | character: pressure-like, frontal",
+    "source": "symptom_log[1]"
+  },
+  {
+    "index": 10,
+    "type": "symptom_log",
+    "text": "symptom: dizziness | onset: 2026-05-14 | duration: 1 day | severity: mild | character: lightheadedness when standing",
+    "source": "symptom_log[2]"
+  },
+  {
+    "index": 11,
+    "type": "medication_adherence.Lisinopril_10mg.status",
+    "text": "medication_adherence.Lisinopril_10mg.status: stopped",
+    "source": "medication_adherence.Lisinopril_10mg.status"
+  },
+  {
+    "index": 12,
+    "type": "medication_adherence.Lisinopril_10mg.reason",
+    "text": "medication_adherence.Lisinopril_10mg.reason: persistent dry cough believed to be medication side effect",
+    "source": "medication_adherence.Lisinopril_10mg.reason"
+  },
+  {
+    "index": 13,
+    "type": "medication_adherence.Lisinopril_10mg.stopped_since",
+    "text": "medication_adherence.Lisinopril_10mg.stopped_since: 2026-05-04",
+    "source": "medication_adherence.Lisinopril_10mg.stopped_since"
+  },
+  {
+    "index": 14,
+    "type": "medication_adherence.Lisinopril_10mg.consulted_doctor_before_stopping",
+    "text": "medication_adherence.Lisinopril_10mg.consulted_doctor_before_stopping: False",
+    "source": "medication_adherence.Lisinopril_10mg.consulted_doctor_before_stopping"
+  },
+  {
+    "index": 15,
+    "type": "medication_adherence.Atorvastatin_20mg.status",
+    "text": "medication_adherence.Atorvastatin_20mg.status: taking",
+    "source": "medication_adherence.Atorvastatin_20mg.status"
+  },
+  {
+    "index": 16,
+    "type": "medication_adherence.Atorvastatin_20mg.as_prescribed",
+    "text": "medication_adherence.Atorvastatin_20mg.as_prescribed: True",
+    "source": "medication_adherence.Atorvastatin_20mg.as_prescribed"
+  },
+  {
+    "index": 17,
+    "type": "medication_adherence.Atorvastatin_20mg.last_taken",
+    "text": "medication_adherence.Atorvastatin_20mg.last_taken: 2026-05-14",
+    "source": "medication_adherence.Atorvastatin_20mg.last_taken"
+  },
+  {
+    "index": 18,
+    "type": "medication_adherence.Atorvastatin_20mg.missed_doses_last_week",
+    "text": "medication_adherence.Atorvastatin_20mg.missed_doses_last_week: 0",
+    "source": "medication_adherence.Atorvastatin_20mg.missed_doses_last_week"
+  },
+  {
+    "index": 19,
+    "type": "review_of_systems.cardiovascular.chest_pain",
+    "text": "review_of_systems.cardiovascular.chest_pain: False",
+    "source": "review_of_systems.cardiovascular.chest_pain"
+  },
+  {
+    "index": 20,
+    "type": "review_of_systems.cardiovascular.palpitations",
+    "text": "review_of_systems.cardiovascular.palpitations: False",
+    "source": "review_of_systems.cardiovascular.palpitations"
+  },
+  {
+    "index": 21,
+    "type": "review_of_systems.cardiovascular.shortness_of_breath",
+    "text": "review_of_systems.cardiovascular.shortness_of_breath: False",
+    "source": "review_of_systems.cardiovascular.shortness_of_breath"
+  },
+  {
+    "index": 22,
+    "type": "review_of_systems.neurological.headache",
+    "text": "review_of_systems.neurological.headache: True",
+    "source": "review_of_systems.neurological.headache"
+  },
+  {
+    "index": 23,
+    "type": "review_of_systems.neurological.dizziness",
+    "text": "review_of_systems.neurological.dizziness: True",
+    "source": "review_of_systems.neurological.dizziness"
+  },
+  {
+    "index": 24,
+    "type": "review_of_systems.neurological.vision_changes",
+    "text": "review_of_systems.neurological.vision_changes: False",
+    "source": "review_of_systems.neurological.vision_changes"
+  },
+  {
+    "index": 25,
+    "type": "review_of_systems.respiratory.cough",
+    "text": "review_of_systems.respiratory.cough: True",
+    "source": "review_of_systems.respiratory.cough"
+  },
+  {
+    "index": 26,
+    "type": "review_of_systems.respiratory.wheezing",
+    "text": "review_of_systems.respiratory.wheezing: False",
+    "source": "review_of_systems.respiratory.wheezing"
+  },
+  {
+    "index": 27,
+    "type": "lifestyle.diet.changes_recently",
+    "text": "lifestyle.diet.changes_recently: False",
+    "source": "lifestyle.diet.changes_recently"
+  },
+  {
+    "index": 28,
+    "type": "lifestyle.diet.salt_intake",
+    "text": "lifestyle.diet.salt_intake: low",
+    "source": "lifestyle.diet.salt_intake"
+  },
+  {
+    "index": 29,
+    "type": "lifestyle.physical_activity.usual_level",
+    "text": "lifestyle.physical_activity.usual_level: moderate",
+    "source": "lifestyle.physical_activity.usual_level"
+  },
+  {
+    "index": 30,
+    "type": "lifestyle.physical_activity.current_level",
+    "text": "lifestyle.physical_activity.current_level: reduced",
+    "source": "lifestyle.physical_activity.current_level"
+  },
+  {
+    "index": 31,
+    "type": "lifestyle.smoking.status",
+    "text": "lifestyle.smoking.status: never",
+    "source": "lifestyle.smoking.status"
+  },
+  {
+    "index": 32,
+    "type": "lifestyle.alcohol.status",
+    "text": "lifestyle.alcohol.status: occasional",
+    "source": "lifestyle.alcohol.status"
+  },
+  {
+    "index": 33,
+    "type": "lifestyle.alcohol.frequency",
+    "text": "lifestyle.alcohol.frequency: 1-2 drinks per week",
+    "source": "lifestyle.alcohol.frequency"
+  },
+  {
+    "index": 34,
+    "type": "lifestyle.stress_level",
+    "text": "lifestyle.stress_level: moderate",
+    "source": "lifestyle.stress_level"
+  },
+  {
+    "index": 35,
+    "type": "family_history",
+    "text": "condition: Hypertension | relation: Father | age_of_onset: 50",
+    "source": "family_history[0]"
+  },
+  {
+    "index": 36,
+    "type": "family_history",
+    "text": "condition: Stroke | relation: Paternal Uncle | age_of_onset: 62",
+    "source": "family_history[1]"
+  },
+  {
+    "index": 37,
+    "type": "patient_concerns",
+    "text": "patient_concerns: Worried the dry cough is caused by blood pressure medication",
+    "source": "patient_concerns[0]"
+  },
+  {
+    "index": 38,
+    "type": "patient_concerns",
+    "text": "patient_concerns: Concerned about headaches getting worse",
+    "source": "patient_concerns[1]"
+  },
+  {
+    "index": 39,
+    "type": "patient_questions",
+    "text": "patient_questions: Is there an alternative to Lisinopril that does not cause cough?",
+    "source": "patient_questions[0]"
+  },
+  {
+    "index": 40,
+    "type": "patient_questions",
+    "text": "patient_questions: How dangerous is it that I stopped my medication?",
+    "source": "patient_questions[1]"
+  }
+]

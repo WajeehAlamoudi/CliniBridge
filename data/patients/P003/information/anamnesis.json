@@ -1,0 +1,55 @@
+{
+  "patient_id": "P003",
+  "recorded_at": "2026-05-14T08:00:00Z",
+  "chief_complaint": {
+    "description": "Gradual weight gain over past 2 weeks and ankle swelling",
+    "onset": "2026-05-01",
+    "duration": "14 days"
+  },
+  "history_of_present_illness": {
+    "summary": "67 year old male with heart failure. Reports gradual weight increase over 2 weeks. Each daily reading was within threshold but trend is upward. Now reporting ankle swelling and reduced exercise tolerance.",
+    "timeline": [
+      {"date": "2026-05-01", "event": "Weight 86.2kg — baseline normal"},
+      {"date": "2026-05-04", "event": "Weight 86.8kg — slight increase"},
+      {"date": "2026-05-07", "event": "Weight 87.5kg — patient noticed mild ankle swelling"},
+      {"date": "2026-05-10", "event": "Weight 88.1kg — ankle swelling worsening"},
+      {"date": "2026-05-14", "event": "Weight 89.3kg — alert triggered, 3.1kg gain in 2 weeks"}
+    ]
+  },
+  "symptom_log": [
+    {"symptom": "ankle swelling", "onset": "2026-05-07", "duration": "7 days", "severity": "moderate", "character": "bilateral, worse in evening"},
+    {"symptom": "reduced exercise tolerance", "onset": "2026-05-10", "duration": "4 days", "severity": "mild", "character": "gets short of breath faster than usual"},
+    {"symptom": "fatigue", "onset": "2026-05-10", "duration": "4 days", "severity": "mild", "character": "more tired than usual"}
+  ],
+  "medication_adherence": {
+    "Furosemide_40mg": {"status": "taking", "as_prescribed": true, "missed_doses_last_week": 0},
+    "Carvedilol_12.5mg": {"status": "taking", "as_prescribed": true, "missed_doses_last_week": 0},
+    "Sacubitril_Valsartan": {"status": "taking", "as_prescribed": true, "missed_doses_last_week": 0},
+    "Spironolactone_25mg": {"status": "taking", "as_prescribed": true, "missed_doses_last_week": 0}
+  },
+  "review_of_systems": {
+    "cardiovascular": {"chest_pain": false, "palpitations": false, "shortness_of_breath": true},
+    "respiratory": {"orthopnea": false, "cough": false},
+    "extremities": {"ankle_swelling": true, "leg_pain": false}
+  },
+  "lifestyle": {
+    "diet": {"changes_recently": true, "description": "Patient attended a wedding last week, ate more salty food than usual", "salt_intake": "high recently"},
+    "physical_activity": {"usual_level": "light", "current_level": "very light"},
+    "smoking": {"status": "former", "quit_year": 2010},
+    "alcohol": {"status": "none"},
+    "stress_level": "low"
+  },
+  "family_history": [
+    {"condition": "Heart Failure", "relation": "Father", "age_of_onset": 65},
+    {"condition": "Hypertension", "relation": "Mother", "age_of_onset": 55}
+  ],
+  "patient_concerns": [
+    "Worried about the weight gain",
+    "Ankles are swollen and uncomfortable",
+    "Getting tired more easily"
+  ],
+  "patient_questions": [
+    "Should I increase my water pill dose?",
+    "Is this weight gain dangerous?"
+  ]
+}

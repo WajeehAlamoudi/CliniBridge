@@ -1,0 +1,12 @@
+{
+  "scenario_id": "scenario_4",
+  "description": "Incomplete Record — Transfer patient with sparse EHR",
+  "patient_id": "P004",
+  "reading": "blood_pressure",
+  "value": "168/102",
+  "unit": "mmHg",
+  "timestamp": "2026-05-14T11:00:00Z",
+  "device": "Omron BP Monitor",
+  "threshold": "140/90",
+  "alert_level": "HIGH"
+}

@@ -1,0 +1,33 @@
+{
+  "patient_id": "P005",
+  "name": "James Carter",
+  "age": 58,
+  "gender": "Male",
+  "blood_type": "AB+",
+  "conditions": [
+    {"name": "Hypertension", "since": "2019", "status": "active", "icd10": "I10"},
+    {"name": "Type 2 Diabetes", "since": "2020", "status": "active", "icd10": "E11"}
+  ],
+  "medications": [
+    {"name": "Ramipril", "dose": "10mg", "frequency": "daily", "prescribed": "2019-07-01"},
+    {"name": "Metformin", "dose": "500mg", "frequency": "twice daily", "prescribed": "2020-03-01"}
+  ],
+  "allergies": [],
+  "labs": [
+    {"test": "Ramipril drug level", "value": "sub-therapeutic", "date": "2026-04-15", "status": "low — suggests non-adherence"},
+    {"test": "HbA1c", "value": "8.9%", "date": "2026-04-15", "status": "elevated — suggests poor glucose control"},
+    {"test": "Creatinine", "value": "1.2 mg/dL", "date": "2026-04-15", "status": "mildly elevated"},
+    {"test": "Potassium", "value": "3.8 mEq/L", "date": "2026-04-15", "status": "normal"}
+  ],
+  "visit_notes": [
+    {"date": "2026-04-15", "note": "Lab results show sub-therapeutic Ramipril levels and elevated HbA1c. Patient claims full adherence. Discrepancy noted. Counseled patient about importance of medication compliance."},
+    {"date": "2025-12-10", "note": "BP 148/92. Slightly elevated. Patient states taking all medications."},
+    {"date": "2025-08-05", "note": "Routine follow-up. BP 138/88. Medications continued."}
+  ],
+  "vitals_baseline": {
+    "blood_pressure": "138/88",
+    "heart_rate": 76,
+    "weight_kg": 91,
+    "height_cm": 180
+  }
+}

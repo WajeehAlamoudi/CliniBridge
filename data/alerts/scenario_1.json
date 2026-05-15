@@ -1,0 +1,12 @@
+{
+  "scenario_id": "scenario_1",
+  "description": "Missed Medication — BP spike after stopping Lisinopril",
+  "patient_id": "P001",
+  "reading": "blood_pressure",
+  "value": "178/108",
+  "unit": "mmHg",
+  "timestamp": "2026-05-14T09:31:00Z",
+  "device": "Omron BP Monitor",
+  "threshold": "140/90",
+  "alert_level": "HIGH"
+}

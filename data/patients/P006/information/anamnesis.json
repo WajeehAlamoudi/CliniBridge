@@ -1,0 +1,26 @@
+{
+  "patient_id": "P006",
+  "recorded_at": "2026-05-14T09:30:00Z",
+  "chief_complaint": {"description": "Fatigue and reduced urine output", "onset": "2026-05-12", "duration": "2 days"},
+  "symptom_log": [
+    {"symptom": "fatigue", "onset": "2026-05-12", "duration": "2 days", "severity": "moderate"},
+    {"symptom": "reduced urine output", "onset": "2026-05-13", "duration": "1 day", "severity": "mild"}
+  ],
+  "medication_adherence": {
+    "Amlodipine_5mg": {"status": "taking", "as_prescribed": true, "missed_doses_last_week": 0},
+    "Erythropoietin": {"status": "taking", "as_prescribed": true, "missed_doses_last_week": 0},
+    "Sodium_Bicarbonate": {"status": "taking", "as_prescribed": true, "missed_doses_last_week": 0}
+  },
+  "lifestyle": {
+    "diet": {"changes_recently": true, "description": "Ate high potassium foods including bananas and oranges this week", "salt_intake": "low"},
+    "physical_activity": {"usual_level": "light", "current_level": "very light"},
+    "smoking": {"status": "never"},
+    "alcohol": {"status": "none"},
+    "stress_level": "low"
+  },
+  "family_history": [
+    {"condition": "Chronic Kidney Disease", "relation": "Brother", "age_of_onset": 60}
+  ],
+  "patient_concerns": ["Worried about kidney function declining", "Feeling more tired than usual"],
+  "patient_questions": ["Is my kidney getting worse?", "Should I go to the hospital?"]
+}

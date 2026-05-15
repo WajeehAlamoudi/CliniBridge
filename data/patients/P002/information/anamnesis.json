@@ -1,0 +1,60 @@
+{
+  "patient_id": "P002",
+  "recorded_at": "2026-05-14T10:00:00Z",
+  "chief_complaint": {
+    "description": "High glucose reading on home monitor",
+    "onset": "2026-05-14",
+    "duration": "1 day"
+  },
+  "history_of_present_illness": {
+    "summary": "45 year old female with Type 2 Diabetes. Glucose monitor showed 210 mg/dL this morning. Patient started a planned high-carb diet experiment 3 days ago as discussed with nutritionist. No symptoms.",
+    "timeline": [
+      {"date": "2026-02-01", "event": "Doctor discussed planned dietary modification"},
+      {"date": "2026-05-11", "event": "Patient started planned high-carb diet trial with nutritionist"},
+      {"date": "2026-05-14", "event": "Glucose monitor showed 210 mg/dL, alert triggered"}
+    ]
+  },
+  "symptom_log": [],
+  "medication_adherence": {
+    "Metformin_1000mg": {
+      "status": "taking",
+      "as_prescribed": true,
+      "last_taken": "2026-05-14",
+      "missed_doses_last_week": 0
+    },
+    "Empagliflozin_10mg": {
+      "status": "taking",
+      "as_prescribed": true,
+      "last_taken": "2026-05-14",
+      "missed_doses_last_week": 0
+    }
+  },
+  "review_of_systems": {
+    "general": {"fatigue": false, "weight_changes": false},
+    "neurological": {"headache": false, "dizziness": false},
+    "cardiovascular": {"chest_pain": false, "palpitations": false}
+  },
+  "lifestyle": {
+    "diet": {
+      "changes_recently": true,
+      "description": "Started planned high-carb diet trial with nutritionist 3 days ago",
+      "salt_intake": "normal"
+    },
+    "physical_activity": {"usual_level": "light", "current_level": "light"},
+    "smoking": {"status": "never"},
+    "alcohol": {"status": "none"},
+    "stress_level": "low"
+  },
+  "family_history": [
+    {"condition": "Type 2 Diabetes", "relation": "Mother", "age_of_onset": 48},
+    {"condition": "Type 2 Diabetes", "relation": "Father", "age_of_onset": 52}
+  ],
+  "patient_concerns": [
+    "Unsure if the glucose alert is related to the diet change",
+    "Wants to confirm this is expected given the dietary trial"
+  ],
+  "patient_questions": [
+    "Is this glucose level expected given my diet change?",
+    "Should I stop the dietary trial?"
+  ]
+}

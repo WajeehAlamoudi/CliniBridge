@@ -1,0 +1,12 @@
+{
+  "scenario_id": "scenario_5",
+  "description": "Conflicting Data — Patient claims adherence but labs show sub-therapeutic levels",
+  "patient_id": "P005",
+  "reading": "blood_pressure",
+  "value": "162/98",
+  "unit": "mmHg",
+  "timestamp": "2026-05-14T12:00:00Z",
+  "device": "Omron BP Monitor",
+  "threshold": "140/90",
+  "alert_level": "HIGH"
+}

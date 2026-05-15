@@ -1,0 +1,57 @@
+{
+  "patient_id": "P005",
+  "recorded_at": "2026-05-14T12:00:00Z",
+  "chief_complaint": {
+    "description": "Elevated blood pressure reading",
+    "onset": "2026-05-14",
+    "duration": "1 day"
+  },
+  "history_of_present_illness": {
+    "summary": "58 year old male with hypertension and diabetes. BP 162/98 on home monitor. Patient insists he is fully compliant with all medications. However recent labs show sub-therapeutic Ramipril levels and elevated HbA1c suggesting otherwise.",
+    "timeline": [
+      {"date": "2026-04-15", "event": "Labs showed sub-therapeutic drug levels despite patient claiming adherence"},
+      {"date": "2026-05-14", "event": "BP 162/98 on home monitor, alert triggered"}
+    ]
+  },
+  "symptom_log": [
+    {"symptom": "mild headache", "onset": "2026-05-14", "duration": "morning", "severity": "mild", "character": "occipital"}
+  ],
+  "medication_adherence": {
+    "Ramipril_10mg": {
+      "status": "taking",
+      "as_prescribed": true,
+      "patient_statement": "I take it every morning without fail",
+      "missed_doses_last_week": 0
+    },
+    "Metformin_500mg": {
+      "status": "taking",
+      "as_prescribed": true,
+      "patient_statement": "I never miss a dose",
+      "missed_doses_last_week": 0
+    }
+  },
+  "review_of_systems": {
+    "cardiovascular": {"chest_pain": false, "palpitations": false},
+    "neurological": {"headache": true, "dizziness": false}
+  },
+  "lifestyle": {
+    "diet": {"changes_recently": false, "salt_intake": "moderate"},
+    "physical_activity": {"usual_level": "sedentary", "current_level": "sedentary"},
+    "smoking": {"status": "former", "quit_year": 2015},
+    "alcohol": {"status": "regular", "frequency": "4-5 drinks per week"},
+    "stress_level": "high",
+    "stress_source": "financial and work pressure"
+  },
+  "family_history": [
+    {"condition": "Hypertension", "relation": "Father", "age_of_onset": 55},
+    {"condition": "Type 2 Diabetes", "relation": "Sister", "age_of_onset": 50}
+  ],
+  "patient_concerns": [
+    "Frustrated that BP is still high despite taking medications",
+    "Denies any missed doses"
+  ],
+  "patient_questions": [
+    "Why is my blood pressure still high if I take my medications?",
+    "Do I need stronger medication?"
+  ]
+}

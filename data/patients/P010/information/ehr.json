@@ -1,0 +1,34 @@
+{
+  "patient_id": "P010",
+  "name": "Emma Wilson",
+  "age": 34,
+  "gender": "Female",
+  "blood_type": "O+",
+  "conditions": [
+    {"name": "Asthma", "since": "2010", "status": "active", "icd10": "J45.9"},
+    {"name": "Generalized Anxiety Disorder", "since": "2019", "status": "active", "icd10": "F41.1"}
+  ],
+  "medications": [
+    {"name": "Salbutamol", "dose": "100mcg", "frequency": "as needed inhaler", "prescribed": "2010-05-01"},
+    {"name": "Budesonide", "dose": "200mcg", "frequency": "twice daily inhaler", "prescribed": "2021-03-01"},
+    {"name": "Sertraline", "dose": "50mg", "frequency": "daily", "prescribed": "2019-11-01"}
+  ],
+  "allergies": ["Latex", "Cat dander"],
+  "labs": [
+    {"test": "SpO2 baseline", "value": "98%", "date": "2026-03-05", "status": "normal"},
+    {"test": "Peak flow", "value": "85% predicted", "date": "2026-03-05", "status": "normal"},
+    {"test": "CBC", "value": "normal", "date": "2026-03-05", "status": "normal"}
+  ],
+  "visit_notes": [
+    {"date": "2026-03-05", "note": "Asthma well controlled. No exacerbations in past 6 months. Anxiety managed with Sertraline. Patient reports feeling better."},
+    {"date": "2025-10-20", "note": "Mild asthma episode triggered by cold air. Managed with Salbutamol. Resolved within 30 minutes."},
+    {"date": "2025-05-10", "note": "Routine follow-up. Asthma and anxiety both stable."}
+  ],
+  "vitals_baseline": {
+    "blood_pressure": "112/72",
+    "heart_rate": 76,
+    "spo2_baseline": "98%",
+    "weight_kg": 62,
+    "height_cm": 165
+  }
+}

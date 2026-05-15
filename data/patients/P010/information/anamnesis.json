@@ -1,0 +1,29 @@
+{
+  "patient_id": "P010",
+  "recorded_at": "2026-05-14T11:30:00Z",
+  "chief_complaint": {"description": "Increased heart rate and shortness of breath", "onset": "2026-05-14", "duration": "30 minutes"},
+  "symptom_log": [
+    {"symptom": "shortness of breath", "onset": "2026-05-14", "duration": "30 minutes", "severity": "moderate", "character": "feels like cannot get enough air"},
+    {"symptom": "elevated heart rate", "onset": "2026-05-14", "duration": "30 minutes", "severity": "moderate", "value": "HR 108 on monitor"},
+    {"symptom": "chest tightness", "onset": "2026-05-14", "duration": "20 minutes", "severity": "mild"}
+  ],
+  "medication_adherence": {
+    "Salbutamol": {"status": "used today", "note": "used rescue inhaler once this morning, symptoms improved partially"},
+    "Budesonide": {"status": "taking", "as_prescribed": true, "missed_doses_last_week": 0},
+    "Sertraline_50mg": {"status": "taking", "as_prescribed": true, "missed_doses_last_week": 0}
+  },
+  "lifestyle": {
+    "diet": {"changes_recently": false, "salt_intake": "normal"},
+    "physical_activity": {"usual_level": "moderate", "current_level": "moderate"},
+    "smoking": {"status": "never"},
+    "alcohol": {"status": "occasional", "frequency": "1 drink per week"},
+    "stress_level": "very high",
+    "stress_source": "important job interview today, feeling very anxious"
+  },
+  "family_history": [
+    {"condition": "Asthma", "relation": "Mother", "age_of_onset": 20},
+    {"condition": "Anxiety", "relation": "Sister", "age_of_onset": 25}
+  ],
+  "patient_concerns": ["Not sure if this is an asthma attack or panic attack", "Heart is racing", "Very anxious about job interview today"],
+  "patient_questions": ["Is this asthma or anxiety?", "Should I use my inhaler again?", "Is my heart rate dangerous?"]
+}

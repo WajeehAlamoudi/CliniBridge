@@ -1,0 +1,110 @@
+[
+  {
+    "index": 0,
+    "type": "name",
+    "text": "name: Sara Ahmed",
+    "source": "name"
+  },
+  {
+    "index": 1,
+    "type": "age",
+    "text": "age: 45",
+    "source": "age"
+  },
+  {
+    "index": 2,
+    "type": "gender",
+    "text": "gender: Female",
+    "source": "gender"
+  },
+  {
+    "index": 3,
+    "type": "blood_type",
+    "text": "blood_type: B+",
+    "source": "blood_type"
+  },
+  {
+    "index": 4,
+    "type": "conditions",
+    "text": "name: Type 2 Diabetes | since: 2018 | status: active | icd10: E11",
+    "source": "conditions[0]"
+  },
+  {
+    "index": 5,
+    "type": "conditions",
+    "text": "name: Obesity | since: 2018 | status: active | icd10: E66",
+    "source": "conditions[1]"
+  },
+  {
+    "index": 6,
+    "type": "medications",
+    "text": "name: Metformin | dose: 1000mg | frequency: twice daily | prescribed: 2018-06-01",
+    "source": "medications[0]"
+  },
+  {
+    "index": 7,
+    "type": "medications",
+    "text": "name: Empagliflozin | dose: 10mg | frequency: daily | prescribed: 2023-03-15",
+    "source": "medications[1]"
+  },
+  {
+    "index": 8,
+    "type": "labs",
+    "text": "test: HbA1c | value: 7.4% | date: 2026-02-01 | status: slightly elevated",
+    "source": "labs[0]"
+  },
+  {
+    "index": 9,
+    "type": "labs",
+    "text": "test: Fasting glucose | value: 138 mg/dL | date: 2026-02-01 | status: elevated",
+    "source": "labs[1]"
+  },
+  {
+    "index": 10,
+    "type": "labs",
+    "text": "test: Creatinine | value: 0.9 mg/dL | date: 2026-02-01 | status: normal",
+    "source": "labs[2]"
+  },
+  {
+    "index": 11,
+    "type": "visit_notes",
+    "text": "date: 2026-02-01 | note: HbA1c 7.4%. Discussed dietary changes. Patient planning dietary modification next month.",
+    "source": "visit_notes[0]"
+  },
+  {
+    "index": 12,
+    "type": "visit_notes",
+    "text": "date: 2025-10-10 | note: Glucose well controlled. Patient compliant with Metformin and Empagliflozin.",
+    "source": "visit_notes[1]"
+  },
+  {
+    "index": 13,
+    "type": "visit_notes",
+    "text": "date: 2025-06-15 | note: Routine follow-up. Weight stable. No complications noted.",
+    "source": "visit_notes[2]"
+  },
+  {
+    "index": 14,
+    "type": "vitals_baseline.blood_pressure",
+    "text": "vitals_baseline.blood_pressure: 125/80",
+    "source": "vitals_baseline.blood_pressure"
+  },
+  {
+    "index": 15,
+    "type": "vitals_baseline.heart_rate",
+    "text": "vitals_baseline.heart_rate: 78",
+    "source": "vitals_baseline.heart_rate"
+  },
+  {
+    "index": 16,
+    "type": "vitals_baseline.weight_kg",
+    "text": "vitals_baseline.weight_kg: 92",
+    "source": "vitals_baseline.weight_kg"
+  },
+  {
+    "index": 17,
+    "type": "vitals_baseline.height_cm",
+    "text": "vitals_baseline.height_cm: 163",
+    "source": "vitals_baseline.height_cm"
+  }
+]

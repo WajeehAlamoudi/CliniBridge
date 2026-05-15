@@ -1,0 +1,33 @@
+{
+  "patient_id": "P007",
+  "name": "David Kim",
+  "age": 71,
+  "gender": "Male",
+  "blood_type": "O-",
+  "conditions": [
+    {"name": "Atrial Fibrillation", "since": "2022", "status": "active", "icd10": "I48"},
+    {"name": "Hypertension", "since": "2014", "status": "active", "icd10": "I10"}
+  ],
+  "medications": [
+    {"name": "Apixaban", "dose": "5mg", "frequency": "twice daily", "prescribed": "2022-06-01"},
+    {"name": "Metoprolol", "dose": "50mg", "frequency": "twice daily", "prescribed": "2022-06-01"},
+    {"name": "Amlodipine", "dose": "10mg", "frequency": "daily", "prescribed": "2014-09-01"}
+  ],
+  "allergies": [],
+  "labs": [
+    {"test": "INR", "value": "2.4", "date": "2026-04-01", "status": "therapeutic"},
+    {"test": "TSH", "value": "2.1 mIU/L", "date": "2026-04-01", "status": "normal"},
+    {"test": "Creatinine", "value": "1.0 mg/dL", "date": "2026-04-01", "status": "normal"}
+  ],
+  "visit_notes": [
+    {"date": "2026-04-01", "note": "AF rate controlled. HR 68 bpm. Apixaban therapeutic. No bleeding events."},
+    {"date": "2025-12-15", "note": "Holter monitor shows persistent AF. Rate well controlled on Metoprolol."},
+    {"date": "2025-08-10", "note": "Routine cardiology follow-up. Echo shows mild left atrial enlargement."}
+  ],
+  "vitals_baseline": {
+    "blood_pressure": "122/78",
+    "heart_rate": 68,
+    "weight_kg": 79,
+    "height_cm": 172
+  }
+}

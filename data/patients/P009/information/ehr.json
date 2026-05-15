@@ -1,0 +1,33 @@
+{
+  "patient_id": "P009",
+  "name": "Thomas Brown",
+  "age": 49,
+  "gender": "Male",
+  "blood_type": "A+",
+  "conditions": [
+    {"name": "Obesity", "since": "2015", "status": "active", "icd10": "E66"},
+    {"name": "Hypertension", "since": "2018", "status": "active", "icd10": "I10"},
+    {"name": "Obstructive Sleep Apnea", "since": "2020", "status": "active", "icd10": "G47.33"}
+  ],
+  "medications": [
+    {"name": "Losartan", "dose": "50mg", "frequency": "daily", "prescribed": "2018-09-01"},
+    {"name": "CPAP therapy", "dose": "8 cmH2O", "frequency": "nightly", "prescribed": "2020-07-01"}
+  ],
+  "allergies": [],
+  "labs": [
+    {"test": "HbA1c", "value": "5.9%", "date": "2026-01-15", "status": "pre-diabetic range"},
+    {"test": "Cholesterol total", "value": "218 mg/dL", "date": "2026-01-15", "status": "borderline high"},
+    {"test": "Creatinine", "value": "1.1 mg/dL", "date": "2026-01-15", "status": "normal"}
+  ],
+  "visit_notes": [
+    {"date": "2026-01-15", "note": "Weight 118kg. BMI 38. BP 138/88. Discussed weight loss program. HbA1c borderline. Referred to dietitian."},
+    {"date": "2025-09-10", "note": "Weight 122kg. BP slightly elevated 144/90. Encouraged CPAP use. Patient non-compliant with CPAP 3 nights per week."},
+    {"date": "2025-04-20", "note": "Routine follow-up. Weight stable. BP managed with Losartan."}
+  ],
+  "vitals_baseline": {
+    "blood_pressure": "138/88",
+    "heart_rate": 82,
+    "weight_kg": 118,
+    "height_cm": 176
+  }
+}

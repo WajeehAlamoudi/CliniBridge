@@ -26,41 +26,43 @@ The graph below shows the overall workflow used by the orchestrator.
 ## Main Components
 
 - `Orchestrator`
-  - coordinates the workflow
-  - handles routing between nodes
-  - saves audit logs and PDFs
+  - Coordinates the workflow
+  - Handles routing between nodes
+  - Saves audit logs and PDFs
 
 - `Safety Check`
-  - decides whether the alert should escalate immediately
+  - Decides whether the alert should escalate immediately
 
 - `Triage Agent`
-  - classifies alert severity
-  - formulates EHR and anamnesis search queries
+  - Classifies alert severity
+  - Formulates EHR and anamnesis search queries
 
 - `EHR Agent`
-  - retrieves clinically relevant information from the patient EHR
+  - Retrieves clinically relevant information from the patient EHR
 
 - `Anamnesis Agent`
-  - retrieves self-reported patient context such as symptoms, adherence, and lifestyle
+  - Retrieves self-reported patient context such as symptoms, adherence, and lifestyle
 
 - `Synthesis Agent`
-  - produces the final Clinical Context Brief
+  - Produces the final Clinical Context Brief
 
 ## Project Structure
 
 ```text
 CliniBridge/
-├── main.py
-├── graph.png
-├── README.md
-├── Agents/
-├── ChatAgent/
-├── Embedder/
-├── Orchestrator/
-├── ToolCalling/
-└── data/
-    ├── alerts/
-    └── patients/
+|-- main.py
+|-- graph.png
+|-- README.md
+|-- requirements.txt
+|-- .env.example
+|-- Agents/
+|-- ChatAgent/
+|-- Embedder/
+|-- Orchestrator/
+|-- ToolCalling/
+`-- data/
+    |-- alerts/
+    `-- patients/
 ```
 
 ## Data Layout
@@ -78,11 +80,11 @@ A patient folder may contain:
   - `anamnesis.json`
 
 - `embeddings/`
-  - saved FAISS indexes and maps
+  - Saved FAISS indexes and maps
 
 - `logs/`
-  - generated JSON audit logs
-  - generated PDF clinical briefs
+  - Generated JSON audit logs
+  - Generated PDF clinical briefs
 
 Example:
 
@@ -91,13 +93,27 @@ data/patients/P001/logs/
 data/patients/P002/logs/
 ```
 
+## Setup
+
+1. Create and activate a virtual environment.
+2. Install dependencies from `requirements.txt`.
+3. Copy `.env.example` to `.env`.
+4. Fill in your `OPENROUTER_API_KEY`.
+
+Example:
+
+```powershell
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+copy .env.example .env
+```
+
 ## How To Run
 
-The project runs from:
+The project runs from `main.py`.
 
-```text
-main.py
-```
+By default, `main.py` loads `scenario_1.json`.
 
 Run it with:
 
@@ -131,9 +147,9 @@ python main.py
 
 For each run, CliniBridge produces:
 
-- terminal output with the final structured result
-- a JSON audit log
-- a PDF clinical brief
+- Terminal output with the final structured result
+- A JSON audit log
+- A PDF clinical brief
 
 These files are stored in the matching patient folder under:
 
@@ -158,18 +174,16 @@ data/patients/unknown/logs/
 
 The final Clinical Context Brief is synthesized from:
 
-- the original RPM alert
-- the triage output
+- The original RPM alert
+- The triage output
 - EHR findings
-- anamnesis findings
+- Anamnesis findings
 
 The brief is intended to summarize:
 
-- what triggered the alert
-- the patient’s relevant context
-- possible risks
-- suggested next actions
-- missing information or uncertainty
-
-
+- What triggered the alert
+- The patient's relevant context
+- Possible risks
+- Suggested next actions
+- Missing information or uncertainty
 

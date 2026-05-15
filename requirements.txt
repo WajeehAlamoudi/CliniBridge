@@ -1,0 +1,7 @@
+openai
+python-dotenv
+langgraph
+numpy
+faiss-cpu
+sentence-transformers
+reportlab

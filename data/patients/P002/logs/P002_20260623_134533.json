@@ -1,0 +1,578 @@
+{
+  "patient_id": "P002",
+  "timestamp": "20260623_134533",
+  "alert": {
+    "scenario_id": "scenario_2",
+    "description": "False Alarm — High glucose due to planned dietary change",
+    "patient_id": "P002",
+    "reading": "blood_glucose",
+    "value": "210",
+    "unit": "mg/dL",
+    "timestamp": "2026-05-14T07:45:00Z",
+    "device": "Dexcom G6 CGM",
+    "threshold": "180",
+    "alert_level": "HIGH"
+  },
+  "triage_output": {
+    "severity": {
+      "score": 4,
+      "class": "MODERATE",
+      "reason": "Glucose 210 mg/dL is 30 above threshold but not dangerously high. Context such as recent dietary changes may explain this reading, so urgency is moderate."
+    },
+    "patient_info": {
+      "patient_id": "P002",
+      "reading_type": "blood_glucose",
+      "reading_value": "210 mg/dL",
+      "threshold": "180 mg/dL",
+      "deviation": "+30 mg/dL above threshold"
+    },
+    "ehr_queries": [
+      "diabetes diagnosis and duration",
+      "current glucose-lowering medications and doses",
+      "recent HbA1c and fasting glucose trends",
+      "nutritionist or dietary counseling notes"
+    ],
+    "anamnesis_queries": [
+      "recent dietary changes or carbohydrate intake",
+      "medication adherence and missed doses",
+      "symptoms of hyperglycemia (thirst, fatigue)",
+      "planned or recent changes in diabetes management"
+    ],
+    "clinical_question": "Is this moderate glucose elevation explained by a recent dietary change or does it indicate a need for closer monitoring?"
+  },
+  "severity_class": "MODERATE",
+  "ehr_findings": [
+    {
+      "conditions": [
+        "Type 2 Diabetes since 2018 (active)"
+      ],
+      "medications": [
+        "Metformin 1000mg twice daily (since 2018)"
+      ],
+      "recent_labs": {
+        "Fasting glucose": "138 mg/dL (2026-02-01)",
+        "Creatinine": "0.9 mg/dL (2026-02-01)"
+      },
+      "relevant_notes": "As of 2025-10-10, glucose was well controlled and the patient was compliant with Metformin and Empagliflozin.",
+      "vitals_baseline": {},
+      "confidence": 0.85,
+      "missing_data": [
+        "Recent dietary history",
+        "Recent Empagliflozin prescription details",
+        "Recent glucose trends",
+        "Recent visit notes discussing dietary changes",
+        "Baseline fasting glucose"
+      ]
+    },
+    {
+      "conditions": [
+        "Type 2 Diabetes since 2018 (active)"
+      ],
+      "medications": [
+        "Metformin 1000mg twice daily (since 2018)",
+        "Empagliflozin 10mg daily (since 2023-03-15)"
+      ],
+      "recent_labs": {
+        "Fasting glucose": "138 mg/dL (2026-02-01)"
+      },
+      "relevant_notes": "As of 2025-10-10, glucose was well controlled and the patient was compliant with Metformin and Empagliflozin.",
+      "vitals_baseline": {},
+      "confidence": 0.92,
+      "missing_data": [
+        "Recent dietary history",
+        "Recent glucose trends",
+        "Recent visit notes discussing dietary changes",
+        "Baseline fasting glucose"
+      ]
+    },
+    {
+      "conditions": [
+        "Type 2 Diabetes since 2018 (active)"
+      ],
+      "medications": [],
+      "recent_labs": {
+        "HbA1c": "7.4% (2026-02-01)",
+        "Fasting glucose": "138 mg/dL (2026-02-01)"
+      },
+      "relevant_notes": "On 2026-02-01, HbA1c was 7.4%. Dietary changes were discussed and the patient is planning dietary modification next month. Previous note from 2025-10-10 indicated glucose was well controlled and the patient was compliant with medications.",
+      "vitals_baseline": {},
+      "confidence": 0.95,
+      "missing_data": [
+        "Longitudinal HbA1c and fasting glucose trend data",
+        "Recent dietary intake details",
+        "Recent medication changes"
+      ]
+    },
+    {
+      "conditions": [
+        "Type 2 Diabetes since 2018 (active)",
+        "Obesity since 2018 (active)"
+      ],
+      "medications": [],
+      "recent_labs": {
+        "Fasting glucose": "138 mg/dL (2026-02-01)"
+      },
+      "relevant_notes": "On 2026-02-01, dietary changes were discussed and the patient is planning dietary modification next month. No specific nutritionist or formal dietary counseling notes found. Previous follow-up on 2025-06-15 noted stable weight and no complications.",
+      "vitals_baseline": {
+        "weight_kg": "92"
+      },
+      "confidence": 0.82,
+      "missing_data": [
+        "Formal nutritionist or dietary counseling notes",
+        "Detailed dietary intake history",
+        "Recent medication list"
+      ]
+    }
+  ],
+  "anamnesis_findings": [
+    {
+      "reported_symptoms": [],
+      "medication_adherence": {
+        "Empagliflozin_10mg": {
+          "status": "taking",
+          "details": "Last dose taken on 2026-05-14"
+        }
+      },
+      "lifestyle_factors": [
+        "Started planned high-carb diet trial with nutritionist 3 days ago",
+        "Salt intake normal",
+        "Physical activity level: light",
+        "Alcohol: none",
+        "Smoking: never",
+        "Stress level: low"
+      ],
+      "family_history": [],
+      "patient_concerns": [
+        "Wants to confirm this is expected given the dietary trial",
+        "Unsure if the glucose alert is related to the diet change"
+      ],
+      "timeline": [
+        "2026-02-01: Doctor discussed planned dietary modification",
+        "2026-05-11: Patient started planned high-carb diet trial with nutritionist",
+        "2026-05-14: Glucose monitor showed 210 mg/dL, alert triggered"
+      ],
+      "confidence": 0.95,
+      "missing_data": [
+        "reported_symptoms (no symptoms reported)",
+        "family_history"
+      ]
+    },
+    {
+      "reported_symptoms": [],
+      "medication_adherence": {
+        "Metformin_1000mg": {
+          "status": "taking",
+          "details": "No missed doses in the last week; last dose taken on 2026-05-14; taking as prescribed"
+        },
+        "Empagliflozin_10mg": {
+          "status": "taking",
+          "details": "No missed doses in the last week; last dose taken on 2026-05-14; taking as prescribed"
+        }
+      },
+      "lifestyle_factors": [],
+      "family_history": [],
+      "patient_concerns": [],
+      "timeline": [],
+      "confidence": 0.98,
+      "missing_data": [
+        "reported_symptoms",
+        "lifestyle_factors",
+        "family_history",
+        "patient_concerns",
+        "timeline"
+      ]
+    },
+    {
+      "reported_symptoms": [],
+      "medication_adherence": {},
+      "lifestyle_factors": [],
+      "family_history": [
+        "Mother: Type 2 Diabetes, onset age 48",
+        "Father: Type 2 Diabetes, onset age 52"
+      ],
+      "patient_concerns": [
+        "Unsure if the glucose alert is related to the diet change",
+        "Wants to confirm this is expected given the dietary trial"
+      ],
+      "timeline": [],
+      "confidence": 0.95,
+      "missing_data": [
+        "reported_symptoms (no symptoms of hyperglycemia such as thirst or fatigue reported)",
+        "medication_adherence",
+        "lifestyle_factors",
+        "timeline"
+      ]
+    },
+    {
+      "reported_symptoms": [],
+      "medication_adherence": {},
+      "lifestyle_factors": [
+        "Started planned high-carb diet trial with nutritionist 3 days ago",
+        "Recent dietary change: high carbohydrate intake"
+      ],
+      "family_history": [
+        "Mother: Type 2 Diabetes, onset age 48",
+        "Father: Type 2 Diabetes, onset age 52"
+      ],
+      "patient_concerns": [
+        "Unsure if the glucose alert is related to the diet change",
+        "Wants to confirm this is expected given the dietary trial"
+      ],
+      "timeline": [
+        "2026-02-01: Doctor discussed planned dietary modification",
+        "2026-05-11: Patient started planned high-carb diet trial with nutritionist",
+        "2026-05-14: Glucose monitor showed 210 mg/dL, alert triggered"
+      ],
+      "confidence": 0.97,
+      "missing_data": [
+        "reported_symptoms (no symptoms reported)",
+        "medication_adherence"
+      ]
+    }
+  ],
+  "clinical_brief": {
+    "alert_summary": {
+      "trigger": "Blood glucose reading of 210 mg/dL detected by Dexcom G6 CGM, exceeding threshold of 180 mg/dL",
+      "severity_class": "MODERATE",
+      "severity_score": 4,
+      "timestamp": "2026-05-14T07:45:00Z"
+    },
+    "patient_snapshot": {
+      "patient_id": "P002",
+      "demographics": "Demographics not available in EHR",
+      "active_conditions": [
+        "Type 2 Diabetes since 2018",
+        "Obesity since 2018"
+      ],
+      "current_medications": [
+        "Metformin 1000mg twice daily",
+        "Empagliflozin 10mg daily"
+      ]
+    },
+    "contextual_analysis": "The patient has a history of Type 2 Diabetes and obesity, with previously well-controlled glucose levels and recent HbA1c of 7.4% (EHR). The current glucose elevation coincides with the start of a planned high-carbohydrate diet trial under nutritionist supervision, begun 3 days prior (Anamnesis). The patient is adherent to both Metformin and Empagliflozin, and reports no symptoms of hyperglycemia (Anamnesis).",
+    "risk_assessment": "This moderate glucose elevation may suggest a transient response to increased carbohydrate intake as part of the dietary trial, rather than medication nonadherence or acute metabolic decompensation. Absence of symptoms and continued medication adherence could indicate low immediate risk, but ongoing monitoring is warranted.",
+    "recommended_actions": [
+      {
+        "action": "Consider monitoring glucose closely during the dietary trial and reassess in 3-7 days",
+        "confidence": 0.9,
+        "source": "Alert + Anamnesis"
+      },
+      {
+        "action": "Suggest patient logs dietary intake and glucose readings for review with care team",
+        "confidence": 0.85,
+        "source": "Anamnesis"
+      },
+      {
+        "action": "Reinforce medication adherence and educate on signs of hyperglycemia",
+        "confidence": 0.8,
+        "source": "EHR + Anamnesis"
+      }
+    ],
+    "uncertainties_and_gaps": [
+      "Patient age and gender not available in EHR",
+      "No recent formal nutritionist or dietary counseling notes in EHR",
+      "No longitudinal glucose trend data available",
+      "No current symptoms reported, but symptom review may be incomplete",
+      "Recent medication list partially missing in some EHR records"
+    ]
+  },
+  "escalate": false,
+  "errors": [],
+  "audit_log": [
+    {
+      "node": "safety_check",
+      "reading": "blood_glucose",
+      "value": "210",
+      "escalate": false,
+      "reason": null
+    },
+    {
+      "node": "triage",
+      "patient_id": "P002",
+      "severity_class": "MODERATE",
+      "triage_output": {
+        "severity": {
+          "score": 4,
+          "class": "MODERATE",
+          "reason": "Glucose 210 mg/dL is 30 above threshold but not dangerously high. Context such as recent dietary changes may explain this reading, so urgency is moderate."
+        },
+        "patient_info": {
+          "patient_id": "P002",
+          "reading_type": "blood_glucose",
+          "reading_value": "210 mg/dL",
+          "threshold": "180 mg/dL",
+          "deviation": "+30 mg/dL above threshold"
+        },
+        "ehr_queries": [
+          "diabetes diagnosis and duration",
+          "current glucose-lowering medications and doses",
+          "recent HbA1c and fasting glucose trends",
+          "nutritionist or dietary counseling notes"
+        ],
+        "anamnesis_queries": [
+          "recent dietary changes or carbohydrate intake",
+          "medication adherence and missed doses",
+          "symptoms of hyperglycemia (thirst, fatigue)",
+          "planned or recent changes in diabetes management"
+        ],
+        "clinical_question": "Is this moderate glucose elevation explained by a recent dietary change or does it indicate a need for closer monitoring?"
+      }
+    },
+    {
+      "node": "parallel_retrieval",
+      "patient_id": "P002",
+      "ehr_queries": [
+        "diabetes diagnosis and duration",
+        "current glucose-lowering medications and doses",
+        "recent HbA1c and fasting glucose trends",
+        "nutritionist or dietary counseling notes"
+      ],
+      "anamnesis_queries": [
+        "recent dietary changes or carbohydrate intake",
+        "medication adherence and missed doses",
+        "symptoms of hyperglycemia (thirst, fatigue)",
+        "planned or recent changes in diabetes management"
+      ],
+      "ehr_findings": [
+        {
+          "conditions": [
+            "Type 2 Diabetes since 2018 (active)"
+          ],
+          "medications": [
+            "Metformin 1000mg twice daily (since 2018)"
+          ],
+          "recent_labs": {
+            "Fasting glucose": "138 mg/dL (2026-02-01)",
+            "Creatinine": "0.9 mg/dL (2026-02-01)"
+          },
+          "relevant_notes": "As of 2025-10-10, glucose was well controlled and the patient was compliant with Metformin and Empagliflozin.",
+          "vitals_baseline": {},
+          "confidence": 0.85,
+          "missing_data": [
+            "Recent dietary history",
+            "Recent Empagliflozin prescription details",
+            "Recent glucose trends",
+            "Recent visit notes discussing dietary changes",
+            "Baseline fasting glucose"
+          ]
+        },
+        {
+          "conditions": [
+            "Type 2 Diabetes since 2018 (active)"
+          ],
+          "medications": [
+            "Metformin 1000mg twice daily (since 2018)",
+            "Empagliflozin 10mg daily (since 2023-03-15)"
+          ],
+          "recent_labs": {
+            "Fasting glucose": "138 mg/dL (2026-02-01)"
+          },
+          "relevant_notes": "As of 2025-10-10, glucose was well controlled and the patient was compliant with Metformin and Empagliflozin.",
+          "vitals_baseline": {},
+          "confidence": 0.92,
+          "missing_data": [
+            "Recent dietary history",
+            "Recent glucose trends",
+            "Recent visit notes discussing dietary changes",
+            "Baseline fasting glucose"
+          ]
+        },
+        {
+          "conditions": [
+            "Type 2 Diabetes since 2018 (active)"
+          ],
+          "medications": [],
+          "recent_labs": {
+            "HbA1c": "7.4% (2026-02-01)",
+            "Fasting glucose": "138 mg/dL (2026-02-01)"
+          },
+          "relevant_notes": "On 2026-02-01, HbA1c was 7.4%. Dietary changes were discussed and the patient is planning dietary modification next month. Previous note from 2025-10-10 indicated glucose was well controlled and the patient was compliant with medications.",
+          "vitals_baseline": {},
+          "confidence": 0.95,
+          "missing_data": [
+            "Longitudinal HbA1c and fasting glucose trend data",
+            "Recent dietary intake details",
+            "Recent medication changes"
+          ]
+        },
+        {
+          "conditions": [
+            "Type 2 Diabetes since 2018 (active)",
+            "Obesity since 2018 (active)"
+          ],
+          "medications": [],
+          "recent_labs": {
+            "Fasting glucose": "138 mg/dL (2026-02-01)"
+          },
+          "relevant_notes": "On 2026-02-01, dietary changes were discussed and the patient is planning dietary modification next month. No specific nutritionist or formal dietary counseling notes found. Previous follow-up on 2025-06-15 noted stable weight and no complications.",
+          "vitals_baseline": {
+            "weight_kg": "92"
+          },
+          "confidence": 0.82,
+          "missing_data": [
+            "Formal nutritionist or dietary counseling notes",
+            "Detailed dietary intake history",
+            "Recent medication list"
+          ]
+        }
+      ],
+      "anamnesis_findings": [
+        {
+          "reported_symptoms": [],
+          "medication_adherence": {
+            "Empagliflozin_10mg": {
+              "status": "taking",
+              "details": "Last dose taken on 2026-05-14"
+            }
+          },
+          "lifestyle_factors": [
+            "Started planned high-carb diet trial with nutritionist 3 days ago",
+            "Salt intake normal",
+            "Physical activity level: light",
+            "Alcohol: none",
+            "Smoking: never",
+            "Stress level: low"
+          ],
+          "family_history": [],
+          "patient_concerns": [
+            "Wants to confirm this is expected given the dietary trial",
+            "Unsure if the glucose alert is related to the diet change"
+          ],
+          "timeline": [
+            "2026-02-01: Doctor discussed planned dietary modification",
+            "2026-05-11: Patient started planned high-carb diet trial with nutritionist",
+            "2026-05-14: Glucose monitor showed 210 mg/dL, alert triggered"
+          ],
+          "confidence": 0.95,
+          "missing_data": [
+            "reported_symptoms (no symptoms reported)",
+            "family_history"
+          ]
+        },
+        {
+          "reported_symptoms": [],
+          "medication_adherence": {
+            "Metformin_1000mg": {
+              "status": "taking",
+              "details": "No missed doses in the last week; last dose taken on 2026-05-14; taking as prescribed"
+            },
+            "Empagliflozin_10mg": {
+              "status": "taking",
+              "details": "No missed doses in the last week; last dose taken on 2026-05-14; taking as prescribed"
+            }
+          },
+          "lifestyle_factors": [],
+          "family_history": [],
+          "patient_concerns": [],
+          "timeline": [],
+          "confidence": 0.98,
+          "missing_data": [
+            "reported_symptoms",
+            "lifestyle_factors",
+            "family_history",
+            "patient_concerns",
+            "timeline"
+          ]
+        },
+        {
+          "reported_symptoms": [],
+          "medication_adherence": {},
+          "lifestyle_factors": [],
+          "family_history": [
+            "Mother: Type 2 Diabetes, onset age 48",
+            "Father: Type 2 Diabetes, onset age 52"
+          ],
+          "patient_concerns": [
+            "Unsure if the glucose alert is related to the diet change",
+            "Wants to confirm this is expected given the dietary trial"
+          ],
+          "timeline": [],
+          "confidence": 0.95,
+          "missing_data": [
+            "reported_symptoms (no symptoms of hyperglycemia such as thirst or fatigue reported)",
+            "medication_adherence",
+            "lifestyle_factors",
+            "timeline"
+          ]
+        },
+        {
+          "reported_symptoms": [],
+          "medication_adherence": {},
+          "lifestyle_factors": [
+            "Started planned high-carb diet trial with nutritionist 3 days ago",
+            "Recent dietary change: high carbohydrate intake"
+          ],
+          "family_history": [
+            "Mother: Type 2 Diabetes, onset age 48",
+            "Father: Type 2 Diabetes, onset age 52"
+          ],
+          "patient_concerns": [
+            "Unsure if the glucose alert is related to the diet change",
+            "Wants to confirm this is expected given the dietary trial"
+          ],
+          "timeline": [
+            "2026-02-01: Doctor discussed planned dietary modification",
+            "2026-05-11: Patient started planned high-carb diet trial with nutritionist",
+            "2026-05-14: Glucose monitor showed 210 mg/dL, alert triggered"
+          ],
+          "confidence": 0.97,
+          "missing_data": [
+            "reported_symptoms (no symptoms reported)",
+            "medication_adherence"
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "node": "synthesis",
+      "patient_id": "P002",
+      "clinical_brief": {
+        "alert_summary": {
+          "trigger": "Blood glucose reading of 210 mg/dL detected by Dexcom G6 CGM, exceeding threshold of 180 mg/dL",
+          "severity_class": "MODERATE",
+          "severity_score": 4,
+          "timestamp": "2026-05-14T07:45:00Z"
+        },
+        "patient_snapshot": {
+          "patient_id": "P002",
+          "demographics": "Demographics not available in EHR",
+          "active_conditions": [
+            "Type 2 Diabetes since 2018",
+            "Obesity since 2018"
+          ],
+          "current_medications": [
+            "Metformin 1000mg twice daily",
+            "Empagliflozin 10mg daily"
+          ]
+        },
+        "contextual_analysis": "The patient has a history of Type 2 Diabetes and obesity, with previously well-controlled glucose levels and recent HbA1c of 7.4% (EHR). The current glucose elevation coincides with the start of a planned high-carbohydrate diet trial under nutritionist supervision, begun 3 days prior (Anamnesis). The patient is adherent to both Metformin and Empagliflozin, and reports no symptoms of hyperglycemia (Anamnesis).",
+        "risk_assessment": "This moderate glucose elevation may suggest a transient response to increased carbohydrate intake as part of the dietary trial, rather than medication nonadherence or acute metabolic decompensation. Absence of symptoms and continued medication adherence could indicate low immediate risk, but ongoing monitoring is warranted.",
+        "recommended_actions": [
+          {
+            "action": "Consider monitoring glucose closely during the dietary trial and reassess in 3-7 days",
+            "confidence": 0.9,
+            "source": "Alert + Anamnesis"
+          },
+          {
+            "action": "Suggest patient logs dietary intake and glucose readings for review with care team",
+            "confidence": 0.85,
+            "source": "Anamnesis"
+          },
+          {
+            "action": "Reinforce medication adherence and educate on signs of hyperglycemia",
+            "confidence": 0.8,
+            "source": "EHR + Anamnesis"
+          }
+        ],
+        "uncertainties_and_gaps": [
+          "Patient age and gender not available in EHR",
+          "No recent formal nutritionist or dietary counseling notes in EHR",
+          "No longitudinal glucose trend data available",
+          "No current symptoms reported, but symptom review may be incomplete",
+          "Recent medication list partially missing in some EHR records"
+        ]
+      }
+    }
+  ]
+}

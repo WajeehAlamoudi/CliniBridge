@@ -14,7 +14,7 @@ logging.basicConfig(
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Load alert
-with open(os.path.join(BASE_DIR, "data", "alerts", "scenario_1.json"), "r") as f:
+with open(os.path.join(BASE_DIR, "data", "alerts", "scenario_3.json"), "r") as f:
     alert = json.load(f)
 
 # Run

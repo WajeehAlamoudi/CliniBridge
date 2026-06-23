@@ -1,0 +1,624 @@
+{
+  "patient_id": "P005",
+  "timestamp": "20260623_134440",
+  "alert": {
+    "scenario_id": "scenario_5",
+    "description": "Conflicting Data — Patient claims adherence but labs show sub-therapeutic levels",
+    "patient_id": "P005",
+    "reading": "blood_pressure",
+    "value": "162/98",
+    "unit": "mmHg",
+    "timestamp": "2026-05-14T12:00:00Z",
+    "device": "Omron BP Monitor",
+    "threshold": "140/90",
+    "alert_level": "HIGH"
+  },
+  "triage_output": {
+    "severity": {
+      "score": 6,
+      "class": "ELEVATED",
+      "reason": "BP 162/98 is moderately above the threshold of 140/90, indicating above-normal hypertension. The reading is not in the urgent or critical range but warrants same-day clinical attention, especially given conflicting adherence and lab data."
+    },
+    "patient_info": {
+      "patient_id": "P005",
+      "reading_type": "blood_pressure",
+      "reading_value": "162/98",
+      "threshold": "140/90",
+      "deviation": "systolic +22 mmHg, diastolic +8 mmHg above threshold"
+    },
+    "ehr_queries": [
+      "antihypertensive medication list and dosing schedule",
+      "recent blood pressure trends and variability",
+      "recent lab results for medication levels",
+      "visit notes regarding blood pressure control",
+      "history of medication absorption or interaction issues"
+    ],
+    "anamnesis_queries": [
+      "patient-reported medication adherence and timing",
+      "recent symptoms such as headache or dizziness",
+      "dietary sodium intake and recent changes",
+      "use of over-the-counter or herbal supplements",
+      "recent changes in physical activity or stress levels"
+    ],
+    "clinical_question": "Does this elevated blood pressure in the context of reported adherence and sub-therapeutic lab levels suggest an issue with medication absorption, compliance, or another factor?"
+  },
+  "severity_class": "ELEVATED",
+  "ehr_findings": [
+    {
+      "conditions": [],
+      "medications": [
+        "Ramipril 10mg daily (prescribed 2019-07-01)",
+        "Metformin 500mg twice daily (prescribed 2020-03-01)"
+      ],
+      "recent_labs": {
+        "Ramipril drug level": "sub-therapeutic (2026-04-15)"
+      },
+      "relevant_notes": "BP was 148/92 on 2025-12-10, noted as slightly elevated. Patient reported taking all medications. BP was 138/88 at routine follow-up on 2025-08-05 with medications continued.",
+      "vitals_baseline": {
+        "blood_pressure": "138/88"
+      },
+      "confidence": 0.85,
+      "missing_data": [
+        "active conditions",
+        "other relevant labs (renal, electrolytes)",
+        "weight/BMI",
+        "recent medication changes"
+      ]
+    },
+    {
+      "conditions": [
+        "Hypertension (active, since 2019)"
+      ],
+      "medications": [],
+      "recent_labs": {},
+      "relevant_notes": "BP readings show some variability: 148/92 on 2025-12-10 (slightly elevated, patient reported adherence), and 138/88 at routine follow-up on 2025-08-05 with medications continued. No additional BP readings or trends documented.",
+      "vitals_baseline": {
+        "blood_pressure": "138/88",
+        "heart_rate": "76"
+      },
+      "confidence": 0.8,
+      "missing_data": [
+        "additional recent blood pressure readings",
+        "medication list",
+        "labs (renal, electrolytes, drug levels)",
+        "weight/BMI"
+      ]
+    },
+    {
+      "conditions": [],
+      "medications": [],
+      "recent_labs": {
+        "Ramipril drug level": "sub-therapeutic (2026-04-15)",
+        "Creatinine": "1.2 mg/dL (2026-04-15)"
+      },
+      "relevant_notes": "On 2026-04-15, lab results showed sub-therapeutic Ramipril levels and elevated HbA1c. Patient claimed full adherence, but discrepancy between reported adherence and drug level was noted. Patient was counseled about medication compliance.",
+      "vitals_baseline": {},
+      "confidence": 0.85,
+      "missing_data": [
+        "full medication list",
+        "blood pressure readings",
+        "other relevant labs (electrolytes, HbA1c value)",
+        "active conditions"
+      ]
+    },
+    {
+      "conditions": [
+        "Hypertension (active, since 2019)"
+      ],
+      "medications": [],
+      "recent_labs": {},
+      "relevant_notes": "BP was 148/92 on 2025-12-10, noted as slightly elevated with patient reporting adherence to medications. BP was 138/88 at routine follow-up on 2025-08-05 with medications continued. On 2026-04-15, a discrepancy was noted between reported adherence and sub-therapeutic Ramipril levels; patient was counseled about medication compliance.",
+      "vitals_baseline": {
+        "blood_pressure": "138/88"
+      },
+      "confidence": 0.85,
+      "missing_data": [
+        "full medication list",
+        "recent labs (drug levels, renal, electrolytes)",
+        "other blood pressure readings",
+        "weight/BMI"
+      ]
+    },
+    {
+      "conditions": [],
+      "medications": [
+        "Metformin 500mg twice daily (prescribed 2020-03-01)"
+      ],
+      "recent_labs": {
+        "Ramipril drug level": "sub-therapeutic (2026-04-15)"
+      },
+      "relevant_notes": "No documented history of medication absorption or interaction issues. Sub-therapeutic Ramipril level on 2026-04-15 despite reported adherence. Discrepancy between reported adherence and drug level noted; patient was counseled about medication compliance.",
+      "vitals_baseline": {},
+      "confidence": 0.75,
+      "missing_data": [
+        "full medication list (Ramipril not listed here)",
+        "active conditions",
+        "other relevant labs",
+        "blood pressure readings",
+        "specific documentation of absorption or interaction issues"
+      ]
+    }
+  ],
+  "anamnesis_findings": [
+    {
+      "reported_symptoms": [],
+      "medication_adherence": {
+        "Ramipril_10mg": {
+          "status": "taking",
+          "details": "Patient states 'I take it every morning without fail', 0 missed doses last week, reports taking as prescribed."
+        },
+        "Metformin_500mg": {
+          "status": "taking",
+          "details": "Patient states 'I never miss a dose', 0 missed doses last week, reports taking as prescribed."
+        }
+      },
+      "lifestyle_factors": [
+        "Sedentary physical activity level (usual and current)",
+        "Alcohol intake: 4-5 drinks per week"
+      ],
+      "family_history": [],
+      "patient_concerns": [
+        "Frustrated that BP is still high despite taking medications",
+        "Denies any missed doses"
+      ],
+      "timeline": [
+        "2026-04-15: Labs showed sub-therapeutic drug levels despite patient claiming adherence",
+        "Recent: BP 162/98 on home monitor, patient insists full compliance with all medications, but labs show sub-therapeutic Ramipril levels and elevated HbA1c"
+      ],
+      "confidence": 0.92,
+      "missing_data": [
+        "reported_symptoms",
+        "family_history"
+      ]
+    },
+    {
+      "reported_symptoms": [
+        {
+          "symptom": "headache",
+          "patient_language": "mild headache, occipital",
+          "onset": "2026-05-14",
+          "duration": "morning",
+          "severity": "mild"
+        }
+      ],
+      "medication_adherence": {},
+      "lifestyle_factors": [
+        "High stress level"
+      ],
+      "family_history": [
+        "Father: Hypertension onset age 55",
+        "Sister: Type 2 Diabetes onset age 50"
+      ],
+      "patient_concerns": [],
+      "timeline": [
+        "2026-05-14: Mild occipital headache in the morning",
+        "2026-05-14: BP 162/98 on home monitor, alert triggered"
+      ],
+      "confidence": 0.88,
+      "missing_data": [
+        "dizziness",
+        "lightheadedness"
+      ]
+    },
+    {
+      "reported_symptoms": [],
+      "medication_adherence": {},
+      "lifestyle_factors": [
+        "Moderate salt intake",
+        "No recent dietary changes reported"
+      ],
+      "family_history": [],
+      "patient_concerns": [],
+      "timeline": [],
+      "confidence": 0.85,
+      "missing_data": [
+        "specific sodium intake details",
+        "recent increases in salt intake"
+      ]
+    },
+    {
+      "reported_symptoms": [],
+      "medication_adherence": {},
+      "lifestyle_factors": [],
+      "family_history": [],
+      "patient_concerns": [],
+      "timeline": [],
+      "confidence": 0.7,
+      "missing_data": [
+        "use of over-the-counter medications",
+        "use of herbal supplements",
+        "use of vitamins",
+        "use of non-prescription drugs"
+      ]
+    },
+    {
+      "reported_symptoms": [],
+      "medication_adherence": {},
+      "lifestyle_factors": [
+        "High stress level",
+        "Stress sources: financial and work pressure",
+        "Current physical activity: sedentary",
+        "Usual physical activity: sedentary"
+      ],
+      "family_history": [],
+      "patient_concerns": [],
+      "timeline": [],
+      "confidence": 0.92,
+      "missing_data": [
+        "recent changes in physical activity (no change documented)",
+        "recent changes in stress level (no change documented)"
+      ]
+    }
+  ],
+  "clinical_brief": {
+    "alert_summary": {
+      "trigger": "Blood pressure 162/98 mmHg detected by home monitor, above threshold of 140/90, with conflicting data: patient claims adherence but labs show sub-therapeutic Ramipril levels.",
+      "severity_class": "ELEVATED",
+      "severity_score": 6,
+      "timestamp": "2026-05-14T12:00:00Z"
+    },
+    "patient_snapshot": {
+      "patient_id": "P005",
+      "demographics": "Demographics not available in provided EHR data",
+      "active_conditions": [
+        "Hypertension (active, since 2019)"
+      ],
+      "current_medications": [
+        "Ramipril 10mg daily",
+        "Metformin 500mg twice daily"
+      ]
+    },
+    "contextual_analysis": "The patient has a history of hypertension managed with Ramipril and Metformin (EHR). Despite reporting perfect adherence to both medications (Anamnesis), recent labs on 2026-04-15 showed sub-therapeutic Ramipril levels (EHR), and the current BP reading of 162/98 mmHg is elevated (Alert). The patient expresses frustration about persistent high BP and denies missed doses (Anamnesis), but the discrepancy between reported adherence and drug levels has been previously noted and discussed (EHR, Anamnesis).",
+    "risk_assessment": "Persistently elevated BP in the context of sub-therapeutic drug levels and reported adherence may suggest issues with medication absorption, compliance, or possible drug interactions. This could indicate increased risk for hypertensive complications if not addressed.",
+    "recommended_actions": [
+      {
+        "action": "Consider direct observation of medication administration or pharmacy refill review to clarify adherence",
+        "confidence": 0.9,
+        "source": "EHR + Anamnesis"
+      },
+      {
+        "action": "Suggest evaluation for possible causes of reduced drug absorption or drug-drug interactions",
+        "confidence": 0.8,
+        "source": "EHR"
+      },
+      {
+        "action": "Recommend repeat blood pressure and Ramipril drug level testing within 1-2 weeks",
+        "confidence": 0.85,
+        "source": "Alert + EHR"
+      }
+    ],
+    "uncertainties_and_gaps": [
+      "Patient demographics (age, gender) not available",
+      "No recent weight or BMI data",
+      "Incomplete documentation of other active conditions",
+      "No detailed sodium intake or dietary history",
+      "No information on use of over-the-counter, herbal, or non-prescription drugs",
+      "No recent medication changes documented",
+      "No recent changes in physical activity or stress level documented",
+      "No additional recent blood pressure trends beyond current and two prior readings"
+    ]
+  },
+  "escalate": false,
+  "errors": [],
+  "audit_log": [
+    {
+      "node": "safety_check",
+      "reading": "blood_pressure",
+      "value": "162/98",
+      "escalate": false,
+      "reason": null
+    },
+    {
+      "node": "triage",
+      "patient_id": "P005",
+      "severity_class": "ELEVATED",
+      "triage_output": {
+        "severity": {
+          "score": 6,
+          "class": "ELEVATED",
+          "reason": "BP 162/98 is moderately above the threshold of 140/90, indicating above-normal hypertension. The reading is not in the urgent or critical range but warrants same-day clinical attention, especially given conflicting adherence and lab data."
+        },
+        "patient_info": {
+          "patient_id": "P005",
+          "reading_type": "blood_pressure",
+          "reading_value": "162/98",
+          "threshold": "140/90",
+          "deviation": "systolic +22 mmHg, diastolic +8 mmHg above threshold"
+        },
+        "ehr_queries": [
+          "antihypertensive medication list and dosing schedule",
+          "recent blood pressure trends and variability",
+          "recent lab results for medication levels",
+          "visit notes regarding blood pressure control",
+          "history of medication absorption or interaction issues"
+        ],
+        "anamnesis_queries": [
+          "patient-reported medication adherence and timing",
+          "recent symptoms such as headache or dizziness",
+          "dietary sodium intake and recent changes",
+          "use of over-the-counter or herbal supplements",
+          "recent changes in physical activity or stress levels"
+        ],
+        "clinical_question": "Does this elevated blood pressure in the context of reported adherence and sub-therapeutic lab levels suggest an issue with medication absorption, compliance, or another factor?"
+      }
+    },
+    {
+      "node": "parallel_retrieval",
+      "patient_id": "P005",
+      "ehr_queries": [
+        "antihypertensive medication list and dosing schedule",
+        "recent blood pressure trends and variability",
+        "recent lab results for medication levels",
+        "visit notes regarding blood pressure control",
+        "history of medication absorption or interaction issues"
+      ],
+      "anamnesis_queries": [
+        "patient-reported medication adherence and timing",
+        "recent symptoms such as headache or dizziness",
+        "dietary sodium intake and recent changes",
+        "use of over-the-counter or herbal supplements",
+        "recent changes in physical activity or stress levels"
+      ],
+      "ehr_findings": [
+        {
+          "conditions": [],
+          "medications": [
+            "Ramipril 10mg daily (prescribed 2019-07-01)",
+            "Metformin 500mg twice daily (prescribed 2020-03-01)"
+          ],
+          "recent_labs": {
+            "Ramipril drug level": "sub-therapeutic (2026-04-15)"
+          },
+          "relevant_notes": "BP was 148/92 on 2025-12-10, noted as slightly elevated. Patient reported taking all medications. BP was 138/88 at routine follow-up on 2025-08-05 with medications continued.",
+          "vitals_baseline": {
+            "blood_pressure": "138/88"
+          },
+          "confidence": 0.85,
+          "missing_data": [
+            "active conditions",
+            "other relevant labs (renal, electrolytes)",
+            "weight/BMI",
+            "recent medication changes"
+          ]
+        },
+        {
+          "conditions": [
+            "Hypertension (active, since 2019)"
+          ],
+          "medications": [],
+          "recent_labs": {},
+          "relevant_notes": "BP readings show some variability: 148/92 on 2025-12-10 (slightly elevated, patient reported adherence), and 138/88 at routine follow-up on 2025-08-05 with medications continued. No additional BP readings or trends documented.",
+          "vitals_baseline": {
+            "blood_pressure": "138/88",
+            "heart_rate": "76"
+          },
+          "confidence": 0.8,
+          "missing_data": [
+            "additional recent blood pressure readings",
+            "medication list",
+            "labs (renal, electrolytes, drug levels)",
+            "weight/BMI"
+          ]
+        },
+        {
+          "conditions": [],
+          "medications": [],
+          "recent_labs": {
+            "Ramipril drug level": "sub-therapeutic (2026-04-15)",
+            "Creatinine": "1.2 mg/dL (2026-04-15)"
+          },
+          "relevant_notes": "On 2026-04-15, lab results showed sub-therapeutic Ramipril levels and elevated HbA1c. Patient claimed full adherence, but discrepancy between reported adherence and drug level was noted. Patient was counseled about medication compliance.",
+          "vitals_baseline": {},
+          "confidence": 0.85,
+          "missing_data": [
+            "full medication list",
+            "blood pressure readings",
+            "other relevant labs (electrolytes, HbA1c value)",
+            "active conditions"
+          ]
+        },
+        {
+          "conditions": [
+            "Hypertension (active, since 2019)"
+          ],
+          "medications": [],
+          "recent_labs": {},
+          "relevant_notes": "BP was 148/92 on 2025-12-10, noted as slightly elevated with patient reporting adherence to medications. BP was 138/88 at routine follow-up on 2025-08-05 with medications continued. On 2026-04-15, a discrepancy was noted between reported adherence and sub-therapeutic Ramipril levels; patient was counseled about medication compliance.",
+          "vitals_baseline": {
+            "blood_pressure": "138/88"
+          },
+          "confidence": 0.85,
+          "missing_data": [
+            "full medication list",
+            "recent labs (drug levels, renal, electrolytes)",
+            "other blood pressure readings",
+            "weight/BMI"
+          ]
+        },
+        {
+          "conditions": [],
+          "medications": [
+            "Metformin 500mg twice daily (prescribed 2020-03-01)"
+          ],
+          "recent_labs": {
+            "Ramipril drug level": "sub-therapeutic (2026-04-15)"
+          },
+          "relevant_notes": "No documented history of medication absorption or interaction issues. Sub-therapeutic Ramipril level on 2026-04-15 despite reported adherence. Discrepancy between reported adherence and drug level noted; patient was counseled about medication compliance.",
+          "vitals_baseline": {},
+          "confidence": 0.75,
+          "missing_data": [
+            "full medication list (Ramipril not listed here)",
+            "active conditions",
+            "other relevant labs",
+            "blood pressure readings",
+            "specific documentation of absorption or interaction issues"
+          ]
+        }
+      ],
+      "anamnesis_findings": [
+        {
+          "reported_symptoms": [],
+          "medication_adherence": {
+            "Ramipril_10mg": {
+              "status": "taking",
+              "details": "Patient states 'I take it every morning without fail', 0 missed doses last week, reports taking as prescribed."
+            },
+            "Metformin_500mg": {
+              "status": "taking",
+              "details": "Patient states 'I never miss a dose', 0 missed doses last week, reports taking as prescribed."
+            }
+          },
+          "lifestyle_factors": [
+            "Sedentary physical activity level (usual and current)",
+            "Alcohol intake: 4-5 drinks per week"
+          ],
+          "family_history": [],
+          "patient_concerns": [
+            "Frustrated that BP is still high despite taking medications",
+            "Denies any missed doses"
+          ],
+          "timeline": [
+            "2026-04-15: Labs showed sub-therapeutic drug levels despite patient claiming adherence",
+            "Recent: BP 162/98 on home monitor, patient insists full compliance with all medications, but labs show sub-therapeutic Ramipril levels and elevated HbA1c"
+          ],
+          "confidence": 0.92,
+          "missing_data": [
+            "reported_symptoms",
+            "family_history"
+          ]
+        },
+        {
+          "reported_symptoms": [
+            {
+              "symptom": "headache",
+              "patient_language": "mild headache, occipital",
+              "onset": "2026-05-14",
+              "duration": "morning",
+              "severity": "mild"
+            }
+          ],
+          "medication_adherence": {},
+          "lifestyle_factors": [
+            "High stress level"
+          ],
+          "family_history": [
+            "Father: Hypertension onset age 55",
+            "Sister: Type 2 Diabetes onset age 50"
+          ],
+          "patient_concerns": [],
+          "timeline": [
+            "2026-05-14: Mild occipital headache in the morning",
+            "2026-05-14: BP 162/98 on home monitor, alert triggered"
+          ],
+          "confidence": 0.88,
+          "missing_data": [
+            "dizziness",
+            "lightheadedness"
+          ]
+        },
+        {
+          "reported_symptoms": [],
+          "medication_adherence": {},
+          "lifestyle_factors": [
+            "Moderate salt intake",
+            "No recent dietary changes reported"
+          ],
+          "family_history": [],
+          "patient_concerns": [],
+          "timeline": [],
+          "confidence": 0.85,
+          "missing_data": [
+            "specific sodium intake details",
+            "recent increases in salt intake"
+          ]
+        },
+        {
+          "reported_symptoms": [],
+          "medication_adherence": {},
+          "lifestyle_factors": [],
+          "family_history": [],
+          "patient_concerns": [],
+          "timeline": [],
+          "confidence": 0.7,
+          "missing_data": [
+            "use of over-the-counter medications",
+            "use of herbal supplements",
+            "use of vitamins",
+            "use of non-prescription drugs"
+          ]
+        },
+        {
+          "reported_symptoms": [],
+          "medication_adherence": {},
+          "lifestyle_factors": [
+            "High stress level",
+            "Stress sources: financial and work pressure",
+            "Current physical activity: sedentary",
+            "Usual physical activity: sedentary"
+          ],
+          "family_history": [],
+          "patient_concerns": [],
+          "timeline": [],
+          "confidence": 0.92,
+          "missing_data": [
+            "recent changes in physical activity (no change documented)",
+            "recent changes in stress level (no change documented)"
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "node": "synthesis",
+      "patient_id": "P005",
+      "clinical_brief": {
+        "alert_summary": {
+          "trigger": "Blood pressure 162/98 mmHg detected by home monitor, above threshold of 140/90, with conflicting data: patient claims adherence but labs show sub-therapeutic Ramipril levels.",
+          "severity_class": "ELEVATED",
+          "severity_score": 6,
+          "timestamp": "2026-05-14T12:00:00Z"
+        },
+        "patient_snapshot": {
+          "patient_id": "P005",
+          "demographics": "Demographics not available in provided EHR data",
+          "active_conditions": [
+            "Hypertension (active, since 2019)"
+          ],
+          "current_medications": [
+            "Ramipril 10mg daily",
+            "Metformin 500mg twice daily"
+          ]
+        },
+        "contextual_analysis": "The patient has a history of hypertension managed with Ramipril and Metformin (EHR). Despite reporting perfect adherence to both medications (Anamnesis), recent labs on 2026-04-15 showed sub-therapeutic Ramipril levels (EHR), and the current BP reading of 162/98 mmHg is elevated (Alert). The patient expresses frustration about persistent high BP and denies missed doses (Anamnesis), but the discrepancy between reported adherence and drug levels has been previously noted and discussed (EHR, Anamnesis).",
+        "risk_assessment": "Persistently elevated BP in the context of sub-therapeutic drug levels and reported adherence may suggest issues with medication absorption, compliance, or possible drug interactions. This could indicate increased risk for hypertensive complications if not addressed.",
+        "recommended_actions": [
+          {
+            "action": "Consider direct observation of medication administration or pharmacy refill review to clarify adherence",
+            "confidence": 0.9,
+            "source": "EHR + Anamnesis"
+          },
+          {
+            "action": "Suggest evaluation for possible causes of reduced drug absorption or drug-drug interactions",
+            "confidence": 0.8,
+            "source": "EHR"
+          },
+          {
+            "action": "Recommend repeat blood pressure and Ramipril drug level testing within 1-2 weeks",
+            "confidence": 0.85,
+            "source": "Alert + EHR"
+          }
+        ],
+        "uncertainties_and_gaps": [
+          "Patient demographics (age, gender) not available",
+          "No recent weight or BMI data",
+          "Incomplete documentation of other active conditions",
+          "No detailed sodium intake or dietary history",
+          "No information on use of over-the-counter, herbal, or non-prescription drugs",
+          "No recent medication changes documented",
+          "No recent changes in physical activity or stress level documented",
+          "No additional recent blood pressure trends beyond current and two prior readings"
+        ]
+      }
+    }
+  ]
+}

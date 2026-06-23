@@ -1,0 +1,762 @@
+{
+  "patient_id": "P003",
+  "timestamp": "20260623_134338",
+  "alert": {
+    "scenario_id": "scenario_3",
+    "description": "Silent Deterioration — Gradual weight gain trend in heart failure patient",
+    "patient_id": "P003",
+    "reading": "weight",
+    "value": "89.3",
+    "unit": "kg",
+    "timestamp": "2026-05-14T08:00:00Z",
+    "device": "Withings Smart Scale",
+    "threshold": "88.0",
+    "alert_level": "MODERATE",
+    "trend": {
+      "readings": [
+        {
+          "date": "2026-05-01",
+          "value": 86.2
+        },
+        {
+          "date": "2026-05-04",
+          "value": 86.8
+        },
+        {
+          "date": "2026-05-07",
+          "value": 87.5
+        },
+        {
+          "date": "2026-05-10",
+          "value": 88.1
+        },
+        {
+          "date": "2026-05-14",
+          "value": 89.3
+        }
+      ],
+      "total_gain_kg": 3.1,
+      "period_days": 14
+    }
+  },
+  "triage_output": {
+    "severity": {
+      "score": 6,
+      "class": "ELEVATED",
+      "reason": "The patient has gained 3.1 kg over 14 days, with current weight 1.3 kg above threshold. This gradual upward trend is clinically significant in a heart failure patient and may indicate fluid retention requiring same-day attention."
+    },
+    "patient_info": {
+      "patient_id": "P003",
+      "reading_type": "weight",
+      "reading_value": "89.3 kg",
+      "threshold": "88.0 kg",
+      "deviation": "+1.3 kg above threshold, +3.1 kg over 14 days"
+    },
+    "ehr_queries": [
+      "heart failure diagnosis and ejection fraction",
+      "current diuretic medications and dosages",
+      "recent BNP or NT-proBNP lab results",
+      "visit notes referencing weight or fluid status",
+      "renal function and electrolyte labs"
+    ],
+    "anamnesis_queries": [
+      "recent symptoms of ankle swelling or leg edema",
+      "shortness of breath or orthopnea changes",
+      "dietary salt intake and recent changes",
+      "daily weight log and adherence",
+      "fluid intake and restriction compliance"
+    ],
+    "clinical_question": "Does this gradual weight gain in a heart failure patient indicate early fluid overload requiring intervention?"
+  },
+  "severity_class": "ELEVATED",
+  "ehr_findings": [
+    {
+      "conditions": [
+        "Heart Failure with reduced ejection fraction (active, since 2023)",
+        "Type 2 Diabetes (active, since 2017)"
+      ],
+      "medications": [],
+      "recent_labs": {
+        "Creatinine": "1.4 mg/dL (2026-03-01)"
+      },
+      "relevant_notes": "Heart failure with reduced ejection fraction is documented as active since 2023. No direct mention of recent weight trends or fluid status in the available data.",
+      "vitals_baseline": {
+        "heart_rate": "65",
+        "blood_pressure": "118/75"
+      },
+      "confidence": 0.75,
+      "missing_data": [
+        "Ejection fraction value",
+        "Heart failure medications",
+        "Recent weight measurements",
+        "Other relevant labs (BNP, sodium, etc.)",
+        "Clinical notes on fluid status"
+      ]
+    },
+    {
+      "conditions": [],
+      "medications": [
+        "Furosemide 40mg daily",
+        "Carvedilol 12.5mg twice daily",
+        "Sacubitril-Valsartan 49/51mg twice daily",
+        "Spironolactone 25mg daily"
+      ],
+      "recent_labs": {},
+      "relevant_notes": "Patient is on Furosemide 40mg daily and Spironolactone 25mg daily as diuretics. Last visit note (2026-01-10) documents weight as 86kg, stable, and ejection fraction at 35% on echocardiogram. No mention of recent medication changes or acute symptoms.",
+      "vitals_baseline": {},
+      "confidence": 0.85,
+      "missing_data": [
+        "Recent weight trends",
+        "Other relevant labs (BNP, sodium, potassium)",
+        "Clinical notes on fluid status or symptoms"
+      ]
+    },
+    {
+      "conditions": [],
+      "medications": [],
+      "recent_labs": {
+        "BNP": "380 pg/mL (2026-03-01)",
+        "Potassium": "4.2 mEq/L (2026-03-01)",
+        "Sodium": "138 mEq/L (2026-03-01)",
+        "Creatinine": "1.4 mg/dL (2026-03-01)"
+      },
+      "relevant_notes": "On 2026-03-01, weight was 88kg with mild ankle edema noted. BNP was elevated at 380 pg/mL. Furosemide dose was increased and monitoring was advised.",
+      "vitals_baseline": {},
+      "confidence": 0.95,
+      "missing_data": [
+        "Longitudinal weight trend",
+        "Details on response to increased diuretic dose"
+      ]
+    },
+    {
+      "conditions": [],
+      "medications": [],
+      "recent_labs": {},
+      "relevant_notes": "Weight was 85kg with no edema and patient feeling well on 2025-10-05. On 2026-01-10, weight was 86kg and stable, with ejection fraction 35%. On 2026-03-01, weight increased to 88kg with mild ankle edema noted and BNP elevated. Furosemide dose was increased and monitoring advised.",
+      "vitals_baseline": {
+        "weight_kg": "86"
+      },
+      "confidence": 0.93,
+      "missing_data": [
+        "Details on response to increased diuretic dose",
+        "Recent medication adjustments"
+      ]
+    },
+    {
+      "conditions": [],
+      "medications": [],
+      "recent_labs": {
+        "Creatinine": "1.4 mg/dL (2026-03-01)",
+        "Sodium": "138 mEq/L (2026-03-01)",
+        "Potassium": "4.2 mEq/L (2026-03-01)"
+      },
+      "relevant_notes": "Renal function is mildly impaired with creatinine at 1.4 mg/dL. Electrolytes are within normal limits (sodium 138 mEq/L, potassium 4.2 mEq/L) as of 2026-03-01.",
+      "vitals_baseline": {},
+      "confidence": 0.95,
+      "missing_data": [
+        "Longitudinal renal function trend",
+        "Other electrolytes (calcium, magnesium, etc.)"
+      ]
+    }
+  ],
+  "anamnesis_findings": [
+    {
+      "reported_symptoms": [
+        {
+          "symptom": "peripheral edema (ankle swelling)",
+          "patient_language": "ankle swelling",
+          "onset": "2026-05-07",
+          "duration": "7 days",
+          "severity": "moderate"
+        },
+        {
+          "symptom": "fatigue",
+          "patient_language": "more tired than usual",
+          "onset": "2026-05-10",
+          "duration": "4 days",
+          "severity": "mild"
+        },
+        {
+          "symptom": "reduced exercise tolerance",
+          "patient_language": "gets short of breath faster than usual",
+          "onset": "2026-05-10",
+          "duration": "4 days",
+          "severity": "mild"
+        }
+      ],
+      "medication_adherence": {},
+      "lifestyle_factors": [
+        "Ate more salty food than usual at a wedding last week",
+        "High salt intake recently"
+      ],
+      "family_history": [
+        "Mother: Hypertension onset age 55"
+      ],
+      "patient_concerns": [
+        "Ankles are swollen and uncomfortable",
+        "Worried about the weight gain",
+        "Getting tired more easily",
+        "Is this weight gain dangerous?"
+      ],
+      "timeline": [
+        "2026-05-01: Weight 86.2kg — baseline normal",
+        "2026-05-04: Weight 86.8kg — slight increase",
+        "2026-05-07: Weight 87.5kg — patient noticed mild ankle swelling",
+        "2026-05-10: Weight 88.1kg — ankle swelling worsening",
+        "2026-05-14: Weight 89.3kg — alert triggered, 3.1kg gain in 2 weeks"
+      ],
+      "confidence": 0.95,
+      "missing_data": [
+        "medication_adherence"
+      ]
+    },
+    {
+      "reported_symptoms": [
+        {
+          "symptom": "shortness of breath on exertion (reduced exercise tolerance)",
+          "patient_language": "gets short of breath faster than usual",
+          "onset": "2026-05-10",
+          "duration": "4 days",
+          "severity": "mild"
+        }
+      ],
+      "medication_adherence": {
+        "Spironolactone_25mg": {
+          "status": "taking",
+          "details": "No missed doses in the last week"
+        }
+      },
+      "lifestyle_factors": [
+        "Ate more salty food than usual at a wedding last week",
+        "Recent increase in salt intake",
+        "Former smoker (quit 2010)",
+        "Low stress level"
+      ],
+      "family_history": [
+        "Father: Heart Failure onset age 65",
+        "Mother: Hypertension onset age 55"
+      ],
+      "patient_concerns": [
+        "Getting tired more easily"
+      ],
+      "timeline": [
+        "2026-05-10: Onset of reduced exercise tolerance and shortness of breath on exertion"
+      ],
+      "confidence": 0.92,
+      "missing_data": [
+        "orthopnea (no evidence of new or worsening orthopnea reported)"
+      ]
+    },
+    {
+      "reported_symptoms": [],
+      "medication_adherence": {},
+      "lifestyle_factors": [
+        "High salt intake recently",
+        "Patient attended a wedding last week, ate more salty food than usual",
+        "Recent dietary changes: increased salt intake",
+        "Current physical activity level: very light",
+        "Usual physical activity level: light",
+        "No alcohol use",
+        "Former smoker (quit 2010)",
+        "Low stress level"
+      ],
+      "family_history": [],
+      "patient_concerns": [],
+      "timeline": [
+        "2026-05-04: Weight 86.8kg — slight increase",
+        "2026-05-14: Weight 89.3kg — alert triggered, 3.1kg gain in 2 weeks"
+      ],
+      "confidence": 0.97,
+      "missing_data": [
+        "reported_symptoms",
+        "medication_adherence",
+        "patient_concerns",
+        "family_history"
+      ]
+    },
+    {
+      "reported_symptoms": [],
+      "medication_adherence": {
+        "Furosemide_40mg": {
+          "status": "taking",
+          "details": "No missed doses last week; taking as prescribed"
+        },
+        "Carvedilol_12.5mg": {
+          "status": "taking",
+          "details": "No missed doses last week; taking as prescribed"
+        },
+        "Sacubitril_Valsartan": {
+          "status": "taking",
+          "details": "No missed doses last week"
+        },
+        "Spironolactone_25mg": {
+          "status": "taking",
+          "details": "No missed doses last week"
+        }
+      },
+      "lifestyle_factors": [
+        "Recent dietary changes",
+        "Usual physical activity level: light",
+        "Current physical activity level: very light",
+        "Low stress level"
+      ],
+      "family_history": [],
+      "patient_concerns": [
+        "Worried about the weight gain",
+        "Is this weight gain dangerous?"
+      ],
+      "timeline": [
+        "2026-05-01: Weight 86.2kg — baseline normal",
+        "2026-05-04: Weight 86.8kg — slight increase",
+        "2026-05-07: Weight 87.5kg — patient noticed mild ankle swelling",
+        "2026-05-14: Weight 89.3kg — alert triggered, 3.1kg gain in 2 weeks"
+      ],
+      "confidence": 0.96,
+      "missing_data": [
+        "reported_symptoms",
+        "family_history"
+      ]
+    },
+    {
+      "reported_symptoms": [],
+      "medication_adherence": {},
+      "lifestyle_factors": [],
+      "family_history": [],
+      "patient_concerns": [],
+      "timeline": [],
+      "confidence": 0.6,
+      "missing_data": [
+        "fluid intake",
+        "fluid restriction compliance"
+      ]
+    }
+  ],
+  "clinical_brief": {
+    "alert_summary": {
+      "trigger": "Weight gain of 3.1 kg over 14 days (from 86.2 kg to 89.3 kg), exceeding the threshold of 88.0 kg in a heart failure patient, detected by Withings Smart Scale.",
+      "severity_class": "ELEVATED",
+      "severity_score": 6,
+      "timestamp": "2026-05-14T08:00:00Z"
+    },
+    "patient_snapshot": {
+      "patient_id": "P003",
+      "demographics": "Age and gender not available in EHR",
+      "active_conditions": [
+        "Heart Failure with reduced ejection fraction (active, since 2023)",
+        "Type 2 Diabetes (active, since 2017)"
+      ],
+      "current_medications": [
+        "Furosemide 40mg daily",
+        "Carvedilol 12.5mg twice daily",
+        "Sacubitril-Valsartan 49/51mg twice daily",
+        "Spironolactone 25mg daily"
+      ]
+    },
+    "contextual_analysis": "The patient has a history of heart failure with reduced ejection fraction (EHR). Over the past two weeks, there has been a gradual weight gain of 3.1 kg, now 1.3 kg above the set threshold, with concurrent reports of moderate ankle swelling, mild fatigue, and reduced exercise tolerance (Anamnesis). Recent increased salt intake was noted around a social event, and the patient expresses concern about the weight gain and swelling (Anamnesis). Medication adherence to heart failure therapies is reported as good (Anamnesis).",
+    "risk_assessment": "This pattern of weight gain with peripheral edema and mild symptoms may suggest early fluid overload in the context of heart failure. The absence of acute symptoms but presence of gradual deterioration could indicate a need for timely adjustment of diuretic therapy or further clinical evaluation.",
+    "recommended_actions": [
+      {
+        "action": "Consider same-day clinical review to assess for fluid overload and evaluate need for diuretic adjustment.",
+        "confidence": 0.9,
+        "source": "Alert + Anamnesis + EHR"
+      },
+      {
+        "action": "Review recent labs (BNP, renal function, electrolytes) and consider repeat testing if clinically indicated.",
+        "confidence": 0.85,
+        "source": "EHR"
+      },
+      {
+        "action": "Reinforce dietary sodium restriction and monitor for further weight changes or worsening symptoms.",
+        "confidence": 0.8,
+        "source": "Anamnesis"
+      }
+    ],
+    "uncertainties_and_gaps": [
+      "Patient age and gender not available in EHR.",
+      "No recent BNP, sodium, potassium, or creatinine labs since 2026-03-01.",
+      "No recent documentation of ejection fraction or response to prior diuretic adjustment.",
+      "No explicit documentation of orthopnea or paroxysmal nocturnal dyspnea.",
+      "Fluid intake and restriction compliance not reported.",
+      "Some anamnesis entries lack symptom and family history details."
+    ]
+  },
+  "escalate": false,
+  "errors": [],
+  "audit_log": [
+    {
+      "node": "safety_check",
+      "reading": "weight",
+      "value": "89.3",
+      "escalate": false,
+      "reason": null
+    },
+    {
+      "node": "triage",
+      "patient_id": "P003",
+      "severity_class": "ELEVATED",
+      "triage_output": {
+        "severity": {
+          "score": 6,
+          "class": "ELEVATED",
+          "reason": "The patient has gained 3.1 kg over 14 days, with current weight 1.3 kg above threshold. This gradual upward trend is clinically significant in a heart failure patient and may indicate fluid retention requiring same-day attention."
+        },
+        "patient_info": {
+          "patient_id": "P003",
+          "reading_type": "weight",
+          "reading_value": "89.3 kg",
+          "threshold": "88.0 kg",
+          "deviation": "+1.3 kg above threshold, +3.1 kg over 14 days"
+        },
+        "ehr_queries": [
+          "heart failure diagnosis and ejection fraction",
+          "current diuretic medications and dosages",
+          "recent BNP or NT-proBNP lab results",
+          "visit notes referencing weight or fluid status",
+          "renal function and electrolyte labs"
+        ],
+        "anamnesis_queries": [
+          "recent symptoms of ankle swelling or leg edema",
+          "shortness of breath or orthopnea changes",
+          "dietary salt intake and recent changes",
+          "daily weight log and adherence",
+          "fluid intake and restriction compliance"
+        ],
+        "clinical_question": "Does this gradual weight gain in a heart failure patient indicate early fluid overload requiring intervention?"
+      }
+    },
+    {
+      "node": "parallel_retrieval",
+      "patient_id": "P003",
+      "ehr_queries": [
+        "heart failure diagnosis and ejection fraction",
+        "current diuretic medications and dosages",
+        "recent BNP or NT-proBNP lab results",
+        "visit notes referencing weight or fluid status",
+        "renal function and electrolyte labs"
+      ],
+      "anamnesis_queries": [
+        "recent symptoms of ankle swelling or leg edema",
+        "shortness of breath or orthopnea changes",
+        "dietary salt intake and recent changes",
+        "daily weight log and adherence",
+        "fluid intake and restriction compliance"
+      ],
+      "ehr_findings": [
+        {
+          "conditions": [
+            "Heart Failure with reduced ejection fraction (active, since 2023)",
+            "Type 2 Diabetes (active, since 2017)"
+          ],
+          "medications": [],
+          "recent_labs": {
+            "Creatinine": "1.4 mg/dL (2026-03-01)"
+          },
+          "relevant_notes": "Heart failure with reduced ejection fraction is documented as active since 2023. No direct mention of recent weight trends or fluid status in the available data.",
+          "vitals_baseline": {
+            "heart_rate": "65",
+            "blood_pressure": "118/75"
+          },
+          "confidence": 0.75,
+          "missing_data": [
+            "Ejection fraction value",
+            "Heart failure medications",
+            "Recent weight measurements",
+            "Other relevant labs (BNP, sodium, etc.)",
+            "Clinical notes on fluid status"
+          ]
+        },
+        {
+          "conditions": [],
+          "medications": [
+            "Furosemide 40mg daily",
+            "Carvedilol 12.5mg twice daily",
+            "Sacubitril-Valsartan 49/51mg twice daily",
+            "Spironolactone 25mg daily"
+          ],
+          "recent_labs": {},
+          "relevant_notes": "Patient is on Furosemide 40mg daily and Spironolactone 25mg daily as diuretics. Last visit note (2026-01-10) documents weight as 86kg, stable, and ejection fraction at 35% on echocardiogram. No mention of recent medication changes or acute symptoms.",
+          "vitals_baseline": {},
+          "confidence": 0.85,
+          "missing_data": [
+            "Recent weight trends",
+            "Other relevant labs (BNP, sodium, potassium)",
+            "Clinical notes on fluid status or symptoms"
+          ]
+        },
+        {
+          "conditions": [],
+          "medications": [],
+          "recent_labs": {
+            "BNP": "380 pg/mL (2026-03-01)",
+            "Potassium": "4.2 mEq/L (2026-03-01)",
+            "Sodium": "138 mEq/L (2026-03-01)",
+            "Creatinine": "1.4 mg/dL (2026-03-01)"
+          },
+          "relevant_notes": "On 2026-03-01, weight was 88kg with mild ankle edema noted. BNP was elevated at 380 pg/mL. Furosemide dose was increased and monitoring was advised.",
+          "vitals_baseline": {},
+          "confidence": 0.95,
+          "missing_data": [
+            "Longitudinal weight trend",
+            "Details on response to increased diuretic dose"
+          ]
+        },
+        {
+          "conditions": [],
+          "medications": [],
+          "recent_labs": {},
+          "relevant_notes": "Weight was 85kg with no edema and patient feeling well on 2025-10-05. On 2026-01-10, weight was 86kg and stable, with ejection fraction 35%. On 2026-03-01, weight increased to 88kg with mild ankle edema noted and BNP elevated. Furosemide dose was increased and monitoring advised.",
+          "vitals_baseline": {
+            "weight_kg": "86"
+          },
+          "confidence": 0.93,
+          "missing_data": [
+            "Details on response to increased diuretic dose",
+            "Recent medication adjustments"
+          ]
+        },
+        {
+          "conditions": [],
+          "medications": [],
+          "recent_labs": {
+            "Creatinine": "1.4 mg/dL (2026-03-01)",
+            "Sodium": "138 mEq/L (2026-03-01)",
+            "Potassium": "4.2 mEq/L (2026-03-01)"
+          },
+          "relevant_notes": "Renal function is mildly impaired with creatinine at 1.4 mg/dL. Electrolytes are within normal limits (sodium 138 mEq/L, potassium 4.2 mEq/L) as of 2026-03-01.",
+          "vitals_baseline": {},
+          "confidence": 0.95,
+          "missing_data": [
+            "Longitudinal renal function trend",
+            "Other electrolytes (calcium, magnesium, etc.)"
+          ]
+        }
+      ],
+      "anamnesis_findings": [
+        {
+          "reported_symptoms": [
+            {
+              "symptom": "peripheral edema (ankle swelling)",
+              "patient_language": "ankle swelling",
+              "onset": "2026-05-07",
+              "duration": "7 days",
+              "severity": "moderate"
+            },
+            {
+              "symptom": "fatigue",
+              "patient_language": "more tired than usual",
+              "onset": "2026-05-10",
+              "duration": "4 days",
+              "severity": "mild"
+            },
+            {
+              "symptom": "reduced exercise tolerance",
+              "patient_language": "gets short of breath faster than usual",
+              "onset": "2026-05-10",
+              "duration": "4 days",
+              "severity": "mild"
+            }
+          ],
+          "medication_adherence": {},
+          "lifestyle_factors": [
+            "Ate more salty food than usual at a wedding last week",
+            "High salt intake recently"
+          ],
+          "family_history": [
+            "Mother: Hypertension onset age 55"
+          ],
+          "patient_concerns": [
+            "Ankles are swollen and uncomfortable",
+            "Worried about the weight gain",
+            "Getting tired more easily",
+            "Is this weight gain dangerous?"
+          ],
+          "timeline": [
+            "2026-05-01: Weight 86.2kg — baseline normal",
+            "2026-05-04: Weight 86.8kg — slight increase",
+            "2026-05-07: Weight 87.5kg — patient noticed mild ankle swelling",
+            "2026-05-10: Weight 88.1kg — ankle swelling worsening",
+            "2026-05-14: Weight 89.3kg — alert triggered, 3.1kg gain in 2 weeks"
+          ],
+          "confidence": 0.95,
+          "missing_data": [
+            "medication_adherence"
+          ]
+        },
+        {
+          "reported_symptoms": [
+            {
+              "symptom": "shortness of breath on exertion (reduced exercise tolerance)",
+              "patient_language": "gets short of breath faster than usual",
+              "onset": "2026-05-10",
+              "duration": "4 days",
+              "severity": "mild"
+            }
+          ],
+          "medication_adherence": {
+            "Spironolactone_25mg": {
+              "status": "taking",
+              "details": "No missed doses in the last week"
+            }
+          },
+          "lifestyle_factors": [
+            "Ate more salty food than usual at a wedding last week",
+            "Recent increase in salt intake",
+            "Former smoker (quit 2010)",
+            "Low stress level"
+          ],
+          "family_history": [
+            "Father: Heart Failure onset age 65",
+            "Mother: Hypertension onset age 55"
+          ],
+          "patient_concerns": [
+            "Getting tired more easily"
+          ],
+          "timeline": [
+            "2026-05-10: Onset of reduced exercise tolerance and shortness of breath on exertion"
+          ],
+          "confidence": 0.92,
+          "missing_data": [
+            "orthopnea (no evidence of new or worsening orthopnea reported)"
+          ]
+        },
+        {
+          "reported_symptoms": [],
+          "medication_adherence": {},
+          "lifestyle_factors": [
+            "High salt intake recently",
+            "Patient attended a wedding last week, ate more salty food than usual",
+            "Recent dietary changes: increased salt intake",
+            "Current physical activity level: very light",
+            "Usual physical activity level: light",
+            "No alcohol use",
+            "Former smoker (quit 2010)",
+            "Low stress level"
+          ],
+          "family_history": [],
+          "patient_concerns": [],
+          "timeline": [
+            "2026-05-04: Weight 86.8kg — slight increase",
+            "2026-05-14: Weight 89.3kg — alert triggered, 3.1kg gain in 2 weeks"
+          ],
+          "confidence": 0.97,
+          "missing_data": [
+            "reported_symptoms",
+            "medication_adherence",
+            "patient_concerns",
+            "family_history"
+          ]
+        },
+        {
+          "reported_symptoms": [],
+          "medication_adherence": {
+            "Furosemide_40mg": {
+              "status": "taking",
+              "details": "No missed doses last week; taking as prescribed"
+            },
+            "Carvedilol_12.5mg": {
+              "status": "taking",
+              "details": "No missed doses last week; taking as prescribed"
+            },
+            "Sacubitril_Valsartan": {
+              "status": "taking",
+              "details": "No missed doses last week"
+            },
+            "Spironolactone_25mg": {
+              "status": "taking",
+              "details": "No missed doses last week"
+            }
+          },
+          "lifestyle_factors": [
+            "Recent dietary changes",
+            "Usual physical activity level: light",
+            "Current physical activity level: very light",
+            "Low stress level"
+          ],
+          "family_history": [],
+          "patient_concerns": [
+            "Worried about the weight gain",
+            "Is this weight gain dangerous?"
+          ],
+          "timeline": [
+            "2026-05-01: Weight 86.2kg — baseline normal",
+            "2026-05-04: Weight 86.8kg — slight increase",
+            "2026-05-07: Weight 87.5kg — patient noticed mild ankle swelling",
+            "2026-05-14: Weight 89.3kg — alert triggered, 3.1kg gain in 2 weeks"
+          ],
+          "confidence": 0.96,
+          "missing_data": [
+            "reported_symptoms",
+            "family_history"
+          ]
+        },
+        {
+          "reported_symptoms": [],
+          "medication_adherence": {},
+          "lifestyle_factors": [],
+          "family_history": [],
+          "patient_concerns": [],
+          "timeline": [],
+          "confidence": 0.6,
+          "missing_data": [
+            "fluid intake",
+            "fluid restriction compliance"
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "node": "synthesis",
+      "patient_id": "P003",
+      "clinical_brief": {
+        "alert_summary": {
+          "trigger": "Weight gain of 3.1 kg over 14 days (from 86.2 kg to 89.3 kg), exceeding the threshold of 88.0 kg in a heart failure patient, detected by Withings Smart Scale.",
+          "severity_class": "ELEVATED",
+          "severity_score": 6,
+          "timestamp": "2026-05-14T08:00:00Z"
+        },
+        "patient_snapshot": {
+          "patient_id": "P003",
+          "demographics": "Age and gender not available in EHR",
+          "active_conditions": [
+            "Heart Failure with reduced ejection fraction (active, since 2023)",
+            "Type 2 Diabetes (active, since 2017)"
+          ],
+          "current_medications": [
+            "Furosemide 40mg daily",
+            "Carvedilol 12.5mg twice daily",
+            "Sacubitril-Valsartan 49/51mg twice daily",
+            "Spironolactone 25mg daily"
+          ]
+        },
+        "contextual_analysis": "The patient has a history of heart failure with reduced ejection fraction (EHR). Over the past two weeks, there has been a gradual weight gain of 3.1 kg, now 1.3 kg above the set threshold, with concurrent reports of moderate ankle swelling, mild fatigue, and reduced exercise tolerance (Anamnesis). Recent increased salt intake was noted around a social event, and the patient expresses concern about the weight gain and swelling (Anamnesis). Medication adherence to heart failure therapies is reported as good (Anamnesis).",
+        "risk_assessment": "This pattern of weight gain with peripheral edema and mild symptoms may suggest early fluid overload in the context of heart failure. The absence of acute symptoms but presence of gradual deterioration could indicate a need for timely adjustment of diuretic therapy or further clinical evaluation.",
+        "recommended_actions": [
+          {
+            "action": "Consider same-day clinical review to assess for fluid overload and evaluate need for diuretic adjustment.",
+            "confidence": 0.9,
+            "source": "Alert + Anamnesis + EHR"
+          },
+          {
+            "action": "Review recent labs (BNP, renal function, electrolytes) and consider repeat testing if clinically indicated.",
+            "confidence": 0.85,
+            "source": "EHR"
+          },
+          {
+            "action": "Reinforce dietary sodium restriction and monitor for further weight changes or worsening symptoms.",
+            "confidence": 0.8,
+            "source": "Anamnesis"
+          }
+        ],
+        "uncertainties_and_gaps": [
+          "Patient age and gender not available in EHR.",
+          "No recent BNP, sodium, potassium, or creatinine labs since 2026-03-01.",
+          "No recent documentation of ejection fraction or response to prior diuretic adjustment.",
+          "No explicit documentation of orthopnea or paroxysmal nocturnal dyspnea.",
+          "Fluid intake and restriction compliance not reported.",
+          "Some anamnesis entries lack symptom and family history details."
+        ]
+      }
+    }
+  ]
+}
